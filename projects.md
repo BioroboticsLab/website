@@ -1,4 +1,4 @@
 ---
 layout: page
-title: Landgraf Lab
+title: Projects
 ---

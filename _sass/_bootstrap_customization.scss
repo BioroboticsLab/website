@@ -236,7 +236,10 @@ legend {
     text-decoration: none;
   }
 }
-
+a.nav-link {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
 // Indicators ==================================================================
 
 .alert {

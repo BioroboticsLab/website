@@ -240,6 +240,9 @@ a.nav-link {
     font-weight: bold;
     font-size: 0.9rem;
 }
+a.nav-link-active {
+    color: $white !important;
+}
 // Indicators ==================================================================
 
 .alert {

@@ -13,29 +13,34 @@
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title -%}
           <li class="nav-item">
-            <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <!-- my {{ my_page.url }}
+            page {{ page.url }}
+            -->
+            <a class="nav-link{% if page.url == my_page.url %} nav-link-active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape | upcase }}</a>
           </li>
           {%- endif -%}
         {% endfor -%}
 
-        <li class="nav-item">
+
+
+    <!--    <li class="nav-item">
           <a class="nav-link" href="./projects.html">PROJECTS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">PEOPLE</a>
+          <a class="nav-link" href="./people.html">PEOPLE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">PUBLICATIONS</a>
+          <a class="nav-link" href="./publications.html">PUBLICATIONS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">TEACHING</a>
+          <a class="nav-link" href="./teaching.html">TEACHING</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">WORK WITH US</a>
+          <a class="nav-link" href="./work_with_us.html">WORK WITH US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">CONTACT</a>
-        </li>
+          <a class="nav-link" href="./contact.html">CONTACT</a>
+        </li>-->
       </ul>
     </div>
   </div>

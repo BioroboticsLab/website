@@ -1,5 +1,16 @@
 
-# Boostrap 4 Github Pages
+# Landgraf Lab website
+
+
+## Add a new person
+
+See [`./_people/000_tim_landgraf.html`](/_people/000_tim_landgraf.html) as an
+template for a new person. Each file in `./_people` a number prefix to controll
+the order in which they are displayed. Lower numbers are on the top (000).
+Let's use the following enumeration scheme: (000 - Tim, 010 - PhD Students, 100
+- MA/BA Students).
+
+### Boostrap 4 Github Pages
 
 A [Bootstrap 4](https://getbootstrap.com/) template project for [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
 
@@ -10,10 +21,6 @@ A [Bootstrap 4](https://getbootstrap.com/) template project for [Github Pages](h
 
 [See the website for demonstration and documentation](https://nicolas-van.github.io/bootstrap-4-github-pages/).
 
-## Contribution
-
 [See the contribution guide.](./CONTRIBUTING.md)
-
-## License
 
 [See the license file.](./LICENSE.md)

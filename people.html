@@ -5,14 +5,26 @@ title: People
 
   {% for person in site.people %}
       <div class="row person">
-          <div class="col">
+          <div class="col-3">
               <img class="portait" src="./assets/images/{{ person.image }}"/>
           </div>
-          <div class="col-7">
+          <div class="col-8">
               <h2>{{ person.name }}</h2>
-              Email: {{ person.email }}
+              {{ person.email }}
+              {% if person.twitter %}
+              <a href="https://www.twitter.com/{{ person.twitter }}">Twitter</a>
+              {% endif  %}
+              {% if person.website %}
+              <a href="{{ person.website }}">Website</a>
+              {% endif  %}
 
-              {{ person.content | markdownify }}
+              <div class='person-position'>
+                {{ person.position }}
+              </div>
+
+              <div class="page-content">
+                {{ person.content | markdownify }}
+              </div>
           </div>
       </div>
   {% endfor %}

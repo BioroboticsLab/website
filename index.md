@@ -2,15 +2,10 @@
 layout: page
 title: Landgraf Lab
 ---
-
-welcome to the landgraf lab.
-
-
-TODO: have a nice banner image
-## Lab photo
-
 ## About the Lab
 The Landgraf Lab works at the interface of biology and computer science to study the collective intelligence of model organisms (bees and fish). To understand how the various interactions between the members of a group lead to emergent group properties, we develop modern tools such as tracking systems or biomimetic robots. Using these tools, we have been able to record large and unique data sets. An integral part of the lab is the development of interpretable machine learning models that provide explanations as to what they have learned. This ultimately informs new hypotheses, new experiments and new tools to be developed in the future. 
+
+<img src="./assets/images/lab_photo.png"/>
 
 ## Contact
 

@@ -11,10 +11,15 @@ TODO: have a nice banner image
 
 ## Abstract about the Lab (5 sentences)
 
-## (physical) address
+## Contact
 
+Free University Berlin
+Institute for Computer Science
 Arnimallee 7
 14195 Berlin
+
+Phone: +49 30 838 75 114
+Email: tim.landgraf [[AT]] fu-berlin.de
 
 ##  Links to collaborators
 

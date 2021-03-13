@@ -6,7 +6,7 @@ title: People
   {% for person in site.people %}
       <div class="row person">
           <div class="col-3">
-              <img class="portait" src="./assets/images/{{ person.image }}"/>
+              <img class="portait" src="{{ person.image }}"/>
           </div>
           <div class="col-8">
               <h2>{{ person.name }}</h2>

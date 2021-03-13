@@ -23,8 +23,20 @@ template for a new person. Each file in `./_people` a number prefix to controll
 the order in which they are displayed. Lower numbers are on the top (000).
 Let's use the following enumeration scheme: (000: Tim, 010: PhD Students, 100: MA/BA Students).
 
+The following fields exists:
+
+- `image`: the name of your image. Must be in `./assets/images/`.
+- `name`: Your full name
+- `position`: Your position, e.g. `PhD Student`
+- `email`: Your email 
+- `twitter` (optional): your twitter handle
+- `website` (optional): link to your website
+
+
 **Add image:** Add your image under `./assets/images`
 
+
+**Personal Website (Optional):** If you want to share a bit more information, you can create your own personal website under `personal_sites/` and link to them using the `website` key.
 
 # Template
 

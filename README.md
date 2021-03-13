@@ -6,7 +6,7 @@
 You might need to install [ruby 2.7](https://www.ruby-lang.org/) and then run:
 
 ```bash
-$ git clone git@github.com:LandgrafLab/website.git
+$ git clone git@github.com:BioroboticsLab/website.git
 $ cd website
 $ bundle install --path vendor/bundle
 $ bundle exec jekyll serve

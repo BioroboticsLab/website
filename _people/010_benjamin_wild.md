@@ -1,8 +1,8 @@
 ---
 name: Benjamin Wild
-image: ben_wild.jpg
+image: assets/images/ben_wild.jpg
 position: PhD Student
-email: benjamin.wild@fu-berlin.de
+email: benjamin.wild [at] fu-berlin.de
 website: personal_sites/benjamin_wild.html
 ---
 

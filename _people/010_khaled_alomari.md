@@ -1,8 +1,8 @@
 ---
 name: Khaled Alomari
-image: khaled_alomari.jpg
+image: ./assets/images/khaled_alomari.jpg
 position: PhD Student
-email: khaled.alomari@fu-berlin.de
+email: khaled.alomari [at] fu-berlin.de
 ---
 
 Khaled has been eating fruit since he was baby.

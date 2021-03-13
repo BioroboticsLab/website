@@ -1,8 +1,8 @@
 ---
 name: Pranav Kedia
-image: pranav_kedia.jpg
+image: ./assets/images/pranav_kedia.jpg
 position: PhD Student
-email: pranav.kedia@fu-berlin.de
+email: pranav.kedia [at] fu-berlin.de
 ---
 
 Pranav has been eating fruit since he was baby.

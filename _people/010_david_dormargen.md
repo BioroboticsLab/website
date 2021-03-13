@@ -1,8 +1,8 @@
 ---
 name: David Dormargen
-image: david_dormargen.jpg
+image: ./assets/images/david_dormargen.jpg
 position: PhD Student
-email: david.dormargen@fu-berlin.de
+email: david.dormargen [at] fu-berlin.de
 ---
 
 David has been eating fruit since he was baby.

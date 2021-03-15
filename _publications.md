@@ -1,0 +1,56 @@
+---
+layout: page
+title: Publications
+---
+
+## 2021
+
+{% bibliography --file lab_publications --query @*[year=2021] %}
+
+## 2020
+
+{% bibliography --file lab_publications --query @*[year=2020] %}
+
+## 2019
+
+{% bibliography --file lab_publications --query @*[year=2019] %}
+
+## 2018
+
+{% bibliography --file lab_publications --query @*[year=2018] %}
+
+## 2017
+
+{% bibliography --file lab_publications --query @*[year=2017] %}
+
+## 2016
+
+{% bibliography --file lab_publications --query @*[year=2016] %}
+
+## 2015
+
+{% bibliography --file lab_publications --query @*[year=2015] %}
+
+
+## 2014
+
+{% bibliography --file lab_publications --query @*[year=2014] %}
+
+## 2013
+
+{% bibliography --file lab_publications --query @*[year=2013] %}
+
+
+## 2012
+
+{% bibliography --file lab_publications --query @*[year=2012] %}
+
+
+## 2011
+
+{% bibliography --file lab_publications --query @*[year=2011] %}
+
+
+## 2007-2010
+
+{% bibliography --file lab_publications --query @*[year<=2010] %}

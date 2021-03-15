@@ -19,9 +19,16 @@ Coming up with some model isn’t that hard. It’s showing whether it is valid 
 Modern machine learning models (i.e. deep neural networks, DNNs) are powerful. They can learn virtually any mapping between input-output pairs. Whether we use DNNs to learn individual or collective behavior from data, or use DNNs in predicting cardiovascular risk, we would like some explanation as to why the model does what it does. Did the model use spurious correlations, or which features did it use? 
 
 
+# Funding and Sponsoring
 
-# RoboFish / Electrofish
+| Time Frame    | Acrynym   | Title of Project| Funding Body  |
+| ------------- | -------   | --------------- | -----:|
+| 2021 - 2024   | PetraKIP  | Persönliches transparentes KI-basiertes Portfolio für die Lehrerbildung | BMBF |
+| 2020 - 2023   | ElektroFish | Roboter, die mit Fischen kommunizieren: Untersuchung der Rolle elektrischer Signale und Bewegungsmustern nach Episoden gegenseitiger Aufmerksamkeit bei schwach elektrischen Fischen | DFG  |  
+| 2019 - 2021   | BrainRL   | Learning the Language of the Brain: Adaptive Brain-Machine Interfaces Maximize Information Transfer Through Autonomous Interaction with Brain Tissue | VW Foundation |
+| 2019 - 2024 | Hiveopolis | Futuristic Beehives for a smart Metropolis | EU H2020 |
+| 2017 - 2021 | RoboFish | Mixed Shoals of Live Fish and Interactive Robots for the Analysis of Collective Behavior in Fish | DFG |
+| 2016 - 2021 | NeuroCopter | Robotik in der Neurobiologie: Ziele finden mit einem winzigen Gehirn. Die neuronalen Grundlagen der Navigation der Bienen. | Dr.-Klaus-Tschira-Stiftung |
 
-# BeesBook / Hiveopolis
 
-# ML Methods / Interpretability
+

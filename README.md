@@ -1,7 +1,7 @@
 
 # Landgraf Lab website
 
-The website of the Landgraf Lab. Any commit to `master` is published immediately. 
+The website of the Landgraf Lab. Any commit to `master` is published immediately.
 If you make changes, please create a [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## Setup Development
@@ -17,7 +17,7 @@ $ bundle exec jekyll serve
 
 ## Add a new person
 
-**Add description:** 
+**Add description:**
 See [`./_people/000_tim_landgraf.html`](/_people/000_tim_landgraf.html) as an
 template for a new person. Each file in `./_people` a number prefix to controll
 the order in which they are displayed. Lower numbers are on the top (000).
@@ -28,8 +28,9 @@ The following fields exists:
 - `image`: the name of your image. Must be in `./assets/images/`.
 - `name`: Your full name
 - `position`: Your position, e.g. `PhD Student`
-- `email`: Your email 
-- `twitter` (optional): your twitter handle
+- `email`: Your email
+- `twitter` (optional): your twitter handle (e.g `tlandgraf`)
+- `github` (optional): your github usename (e.g `berleon`)
 - `website` (optional): link to your website
 
 

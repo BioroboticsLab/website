@@ -3,7 +3,7 @@ name: Benjamin Wild
 image: assets/images/ben_wild.jpg
 position: PhD Student
 email: b.w [at] fu-berlin.de
-twitter: twitter.com/nebww
+twitter: nebww
 website: personal_sites/benjamin_wild.html
 ---
 

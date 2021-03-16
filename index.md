@@ -6,20 +6,6 @@ The Landgraf Lab works at the interface of biology and computer science to study
 
 <img src="./assets/images/lab_photo.png"/>
 
-
-## Contact
-
-```
-Free University Berlin 
-Institute for Computer Science 
-Arnimallee 7 
-14195 Berlin 
-```
-
-```
-Phone: +49 30 838 75 114 
-Email: tim.landgraf [[AT]] fu-berlin.de 
-```
 ##  Collaborators
 
 * [Prof. Dr. Jens Krause](https://www.igb-berlin.de/en/profile/jens-krause) – Biologie und Ökologie der Fische, IGB Berlin and HU Berlin

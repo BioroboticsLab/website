@@ -4,17 +4,6 @@
 The website of the Landgraf Lab. Any commit to `master` is published immediately.
 If you make changes, please create a [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## Setup Development
-
-You might need to install [ruby 2.7](https://www.ruby-lang.org/) and then run:
-
-```bash
-$ git clone git@github.com:BioroboticsLab/website.git
-$ cd website
-$ bundle install --path vendor/bundle
-$ bundle exec jekyll serve
-```
-
 ## Add a new person
 
 **Add description:**
@@ -38,6 +27,18 @@ The following fields exists:
 
 
 **Personal Website (Optional):** If you want to share a bit more information, you can create your own personal website under `personal_sites/` and link to them using the `website` key.
+
+## Setup Development
+
+You can use Gitub's editor for most changes, but for larger changes you might want to build 
+the website locally. Here is what you have to do. You need to have [ruby 2.7](https://www.ruby-lang.org/) and then run:
+
+```bash
+$ git clone git@github.com:BioroboticsLab/website.git
+$ cd website
+$ bundle install --path vendor/bundle
+$ bundle exec jekyll serve
+```
 
 # Template
 

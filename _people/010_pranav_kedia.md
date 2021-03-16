@@ -1,6 +1,6 @@
 ---
 name: Pranav Kedia
-image: ./assets/images/pranav_kedia.jpg
+image: assets/images/pranav_kedia.jpg
 position: Wissenschaftlicher Mitarbeiter
 email: pranav.kedia [at] fu-berlin.de
 website: https://praked.github.io/

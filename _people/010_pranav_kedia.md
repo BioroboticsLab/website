@@ -1,6 +1,6 @@
 ---
 name: Pranav Kedia
-image: ./assets/images/pranav_kedia.jpg
+image: ./assets/images/pranav_kedia.jpeg
 position: PhD Student
 email: pranav.kedia [at] fu-berlin.de
 ---

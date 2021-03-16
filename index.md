@@ -6,6 +6,7 @@ The Landgraf Lab works at the interface of biology and computer science to study
 
 <img src="./assets/images/lab_photo.png"/>
 
+
 ## Contact
 
 ```

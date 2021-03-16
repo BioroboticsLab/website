@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Current Teaching
+title: Teaching
 ---
 
 ## Winter Term 2020/2021

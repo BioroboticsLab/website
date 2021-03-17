@@ -1,9 +1,8 @@
 ---
 name: Moritz Maxeiner
 image: ./assets/images/moritz_maxeiner.jpg
-position: PhD Student
+position: Research assistant
 email: moritz.maxeiner [at] fu-berlin.de
 ---
 
-Moritz has been eating fruit since he was baby.
-
+Modeling of weakly electric fish. Developing software, writing specification, maintaining continuous integration.

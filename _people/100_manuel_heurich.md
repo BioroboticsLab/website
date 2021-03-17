@@ -2,8 +2,10 @@
 name: Manuel Heurich
 image: ./assets/images/manuel_heurich.jpg
 position: Master Student
-email: max.granz [at] fu-berlin.de
+email: manuel.heurich [at] fu-berlin.de
 ---
 
-Manauel has been eating fruit since he was baby.
+Exploring the realm of machine learning while aiming to increase the interpretability of deep learning models. My objective is to find universally applicable approaches by evaluating state-of-the-art attribution methods and studying their limitations.
+
+
 

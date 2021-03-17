@@ -2,8 +2,10 @@
 name: Gianluca Volkmer
 image: ./assets/images/gianluca_volkmer.jpg
 position: Student Assistant
-email: [at] fu-berlin.de
+github: Siedler
+email: gianluca.volkmer [at] fu-berlin.de
 ---
 
-Gianluca has been eating fruit since he was baby.
+Gianluca is a student assistant in the Elektrofish project.
 
+He is currently enrolled as a Computer-Science Bachelor student and curious to deepen his knowledge about ML methods and their applications.

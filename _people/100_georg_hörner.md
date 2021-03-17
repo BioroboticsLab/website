@@ -2,7 +2,10 @@
 name: Georg Hörner
 image: assets/images/georg_hörner.jpg
 position: Student Assistant
-email: fu-berlin.de
+github: georghoerner
+email: georg.hoerner@fu-berlin.de
 ---
 
-Georg has been eating fruit since he was baby.
+Georg is a student assistant in the Robofish project.
+
+He is, as of 2021, a Computer-Science Master student and is interested in ML and its application in body pose tracking.

@@ -30,14 +30,20 @@ The following fields exists:
 
 ## Setup Development
 
-You can use Gitub's editor for most changes, but for larger changes you might want to build 
-the website locally. Here is what you have to do. You need to have [ruby 2.7](https://www.ruby-lang.org/) and then run:
+You can use Gitub's editor for most changes, but for larger changes you might want to build
+the website locally. Here is what you have to do. You need to have [ruby 2.7](https://www.ruby-lang.org/) and a C compiler (e.g. gcc) and then run:
 
 ```bash
 $ git clone git@github.com:BioroboticsLab/website.git
 $ cd website
 $ bundle install --path vendor/bundle
 $ bundle exec jekyll serve
+```
+
+Alternatively, use docker:
+
+```bash
+$ docker run --rm --volume="$PWD:/srv/jekyll" -p4000:4000 -it jekyll/jekyll:3.8 jekyll serve
 ```
 
 # Template

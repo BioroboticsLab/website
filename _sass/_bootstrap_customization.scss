@@ -85,6 +85,12 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat" !default;
 
 // Tables ======================================================================
 
+// default tables styles to Bootstrap's table
+table {
+  @extend .table;
+  @extend .table-striped;
+}
+
 .table {
 
   &-primary,

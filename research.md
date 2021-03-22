@@ -64,7 +64,7 @@ Modern machine learning models (i.e. deep neural networks, DNNs) are powerful. T
                 <td>2016 - 2021</td>
                 <td>NeuroCopter</td>
                 <td>Robotik in der Neurobiologie: Ziele finden mit einem winzigen Gehirn. Die neuronalen Grundlagen der Navigation der Bienen.</td>
-                <td><img style="width:200px" src="assets/images/Klaus-Tschira-Stiftung_Logo.svg"></td>
+                <td><img src="assets/images/Klaus-Tschira-Stiftung_Logo.svg"></td>
             </tr>
         </tbody>
     </table>

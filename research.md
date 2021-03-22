@@ -34,7 +34,7 @@ Modern machine learning models (i.e. deep neural networks, DNNs) are powerful. T
                 <td> 2021 - 2024</td>
                 <td>PetraKIP</td>
                 <td>Persönliches transparentes KI-basiertes Portfolio für die Lehrerbildung</td>
-                <td>BMBF</td>
+                <td><img src="assets/images/BMBF_Logo.svg"></td>
             </tr>
             <tr>
                 <td>2020 - 2023</td>

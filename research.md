@@ -40,31 +40,31 @@ Modern machine learning models (i.e. deep neural networks, DNNs) are powerful. T
                 <td>2020 - 2023</td>
                 <td>ElektroFish</td>
                 <td>Roboter, die mit Fischen kommunizieren: Untersuchung der Rolle elektrischer Signale und Bewegungsmustern nach Episoden gegenseitiger Aufmerksamkeit bei schwach elektrischen Fischen</td>
-                <td>DFG</td>
+                <td><img src="assets/images/DFG-logo-blau.svg"></td>
             </tr>
             <tr>
                 <td>2019 - 2021</td>
                 <td>BrainRL</td>
                 <td>Learning the Language of the Brain: Adaptive Brain-Machine Interfaces Maximize Information Transfer Through Autonomous Interaction with Brain Tissue</td>
-                <td>VW Foundation</td>
+                <td><img src="assets/images/Logo_Volkswagenstiftung.svg"></td>
             </tr>
             <tr>
                 <td>2019 - 2024</td>
                 <td>Hiveopolis</td>
                 <td>Futuristic Beehives for a smart Metropolis</td>
-                <td>EU H2020</td>
+                <td><img src="assets/images/logo-H2020.png"></td>
             </tr>
             <tr>
                 <td>2017 - 2021</td>
                 <td>RoboFish</td>
                 <td>Mixed Shoals of Live Fish and Interactive Robots for the Analysis of Collective Behavior in Fish</td>
-                <td>DFG</td>
+                <td><img src="assets/images/DFG-logo-blau.svg"></td>
             </tr>
             <tr>
                 <td>2016 - 2021</td>
                 <td>NeuroCopter</td>
                 <td>Robotik in der Neurobiologie: Ziele finden mit einem winzigen Gehirn. Die neuronalen Grundlagen der Navigation der Bienen.</td>
-                <td>Dr.-Klaus-Tschira-Stiftung</td>
+                <td><img style="width:200px" src="assets/images/Klaus-Tschira-Stiftung_Logo.svg"></td>
             </tr>
         </tbody>
     </table>

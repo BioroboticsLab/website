@@ -9,16 +9,36 @@ p {
     text-align: justify;
 }
 
+/* let portraits grow up to their max size */
 img.portait {
-    width: 150px;
+    display: block;
+    width: 80%;
     border-radius: 50%;
+    margin-top: 3rem;
+    max-width: 300px;
 }
 
 div.person {
     margin-bottom: 30px;
+
+    .page-content {
+        margin-top: 20px;
+    }
+    .position {
+        font-weight: bolder;
+    }
 }
-div.person .page-content {
-    margin-top: 20px;
+
+#homepageTeamPic {
+    margin-top: 1rem;
+}
+
+@include media-breakpoint-down(sm) {
+    div.person {
+        img.portait {
+            margin: 0 auto;
+        }
+    }
 }
 
 @include media-breakpoint-up(lg) {

@@ -28,6 +28,14 @@ The following fields exists:
 
 **Personal Website (Optional):** If you want to share a bit more information, you can create your own personal website under `personal_sites/` and link to them using the `website` key.
 
+## Add a new publication
+
+Add a bibtex entry to
+[`./_bibliography/lab_publications.bib`](./_bibliography/lab_publications.bib).
+If this is the first publication in this year, you might have to add a year
+entry to [`./publications.md`](./publications.md).
+
+
 ## Setup Development
 
 You can use Gitub's editor for most changes, but for larger changes you might want to build

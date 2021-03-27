@@ -15,3 +15,5 @@ The Landgraf Lab works at the interface of biology and computer science to study
 * [Prof. Dr. Gerhard von der Emde](https://www.zoologie.uni-bonn.de/abteilungen/neuroethologie-sensorische-oekologie-prof.-g.-von-der-emde), Neuroethology, Uni Bonn
 * [Prof. Dr. Iain Couzin](https://collectivebehaviour.com/people/couzin-iain/) - MPI Animal Behavior and Uni Konstanz
 * [Prof. Dr. Michael Smith](https://smithbeelab.com/pages/people/) - Auburn University
+* [Prof. Dr. Christoph Benzmüller](http://page.mi.fu-berlin.de/cbenzmueller/) - FU Berlin
+* [Prof. Dr. Ralf Romeike](https://www.mi.fu-berlin.de/inf/groups/ag-ddi/team/prof/rromeike.html) - FU Berlin

@@ -17,3 +17,7 @@ The Landgraf Lab works at the interface of biology and computer science to study
 * [Prof. Dr. Michael Smith](https://smithbeelab.com/pages/people/) - Auburn University
 * [Prof. Dr. Christoph Benzmüller](http://page.mi.fu-berlin.de/cbenzmueller/) - FU Berlin
 * [Prof. Dr. Ralf Romeike](https://www.mi.fu-berlin.de/inf/groups/ag-ddi/team/prof/rromeike.html) - FU Berlin
+
+## Affiliations
+<a href="https://www.mi.fu-berlin.de/inf/groups/ag-ki/index.html"><img src="assets/images/DCMLR.png" width="250"></a> &nbsp;
+<a href="https://www.scienceofintelligence.de/"><img src="assets/images/ScioI_Logo_L.svg.png" width="250"></a>

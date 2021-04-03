@@ -37,7 +37,7 @@ scholar:
 # A list of the pages to display in the navigation bar
 header_pages:
   - research.md
-  - people.html
+  - team.html
   - publications.md
   - teaching.md
   - work_with_us.md

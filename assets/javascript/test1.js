@@ -23,7 +23,7 @@ function setup() {
   canvas.style('display', 'block');
   canvas.parent('p5Vid');
   background(255, 0, 200);
-  bees = createVideo(['/landgraflab-demo/assets/videos/beedance.mp4']);
+  bees = createVideo(['/website/assets/videos/beedance.mp4']);
   bees.volume(0);
   bees.autoplay();
   bees.loop();

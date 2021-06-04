@@ -1,9 +1,9 @@
 ---
 name: Mathis Hocke
 image: ./assets/images/mathis_hocke.jpg
-position: PhD Student
+position: Research assistant
 email: mathis.hocke [at] fu-berlin.de
 ---
 
-Mathis has been eating fruit since he was baby.
+Working on Reinforcement Learning in the RoboFish project to investigate fish interaction behavior.
 

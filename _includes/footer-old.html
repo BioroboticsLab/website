@@ -1,0 +1,43 @@
+
+<footer>
+  <div class="container footer-text">
+    <p>
+  {%- if site.author -%}
+    {{ site.author | escape }} |
+  {%- else -%}
+    {{ site.title | escape }} |
+  {%- endif -%}
+  {%- if site.email -%}
+      <a href="mailto:{{ site.email }}">
+        {{ site.email }}
+      </a> |
+  {%- endif -%}
+  <a href="./impress.html">
+    Impressum – Legal Notice
+  </a>
+  </p>
+  </div>
+</footer>
+<div class="svg-filters">
+  <object type="image/svg+xml" data="{{ '/assets/images/filter.svg' | relative_url }}"></object>
+  <!-- <object type="image/svg+xml" data="{{ '/assets/images/clips.svg' | relative_url }}"></object> -->
+  <svg width="0" height="0">
+      <defs>
+        <clipPath id="myCurve" clipPathUnits="objectBoundingBox">
+          <path
+            d="M 0,1
+									L 0,0
+									L 1,0
+									L 1,1
+									C .65 .8, .35 .8, 0 1
+									Z"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+</div>
+<!-- <script type="text/javascript" src="{{ '/assets/javascript/no-js.js' | relative_url }}"></script> -->
+<script type="text/javascript" src="{{ '/assets/javascript/navigation.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/assets/javascript/blotter.min.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/assets/javascript/flies.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/assets/javascript/blot.js' | relative_url }}"></script>

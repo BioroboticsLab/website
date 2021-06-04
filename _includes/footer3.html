@@ -1,0 +1,82 @@
+
+<footer>
+  <div class="container footer-text">
+    <p>
+  {%- if site.author -%}
+    {{ site.author | escape }} |
+  {%- else -%}
+    {{ site.title | escape }} |
+  {%- endif -%}
+  {%- if site.email -%}
+      <a href="mailto:{{ site.email }}">
+        {{ site.email }}
+      </a> |
+  {%- endif -%}
+  <a href="./impress.html">
+    Impressum – Legal Notice
+  </a>
+  </p>
+  </div>
+  <div class="svg-filters">
+    <object type="image/svg+xml" data="{{ '/assets/images/filter.svg' | relative_url }}"></object>
+    <!-- <object type="image/svg+xml" data="{{ '/assets/images/clips.svg' | relative_url }}"></object> -->
+    <svg width="0" height="0">
+        <defs>
+          <clipPath id="curve-0-clip" clipPathUnits="objectBoundingBox">
+            <path
+              d="M 0,0
+                    L 1,0
+                    L 1,.8
+                    C .8 .9, .2 .4, 0 .7
+                    L 0,0
+                    Z"
+            />
+          </clipPath>
+          <clipPath id="curve-1-clip" clipPathUnits="objectBoundingBox">
+            <path
+              d="M 0,0
+                    L 1,0
+                    L 1,1
+                    C .65 .4, .35 .9, 0 .5
+                    L 0,0
+                    Z"
+            />
+          </clipPath>
+          <clipPath id="curve-2-clip" clipPathUnits="objectBoundingBox">
+            <path
+              d="M 0,0
+                    L 1,0
+                    L 1,.8
+                    C .9 .6, .2 .9, 0 .7
+                    L 0,0
+                    Z"
+            />
+          </clipPath>
+          <clipPath id="box-clip" clipPathUnits="objectBoundingBox">
+            <path
+              d="M 0,.05
+                    C .2 0, .7 .03, 1 .05
+                    L 1,.9
+                    C .9 .95, .2 .85, 0 1
+                    L 0,0
+                    Z"
+            />
+          </clipPath>
+          <clipPath id="footer-clip" clipPathUnits="objectBoundingBox">
+            <path
+              d="M 0,1
+                  L 0,0
+                  C .2 .05, .7 .2, 1 0
+                    L 1,1
+                    Z"
+            />
+          </clipPath>
+        </defs>
+      </svg>
+  </div>
+</footer>
+<!-- <script type="text/javascript" src="{{ '/assets/javascript/no-js.js' | relative_url }}"></script> -->
+<script type="text/javascript" src="{{ '/assets/javascript/navigation.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/assets/javascript/blotter.min.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/assets/javascript/flies.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/assets/javascript/blot3.js' | relative_url }}"></script>

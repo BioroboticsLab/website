@@ -1,0 +1,177 @@
+body {
+}
+.page-header {
+  position: relative;
+  display: block;
+  min-height: 310px;
+  background-color:$color__green;
+  mix-blend-mode:none;
+  clip-path: url(#curve-0-clip);
+}
+
+.logoText {
+  position: absolute;
+  display: block;
+  z-index: 9999;
+  top: 2rem;
+  left: 2rem;
+  padding: 4rem;
+  line-height: 5.2rem;
+  //border: 3px black solid;
+}
+
+.logoBlot {
+  position: absolute;
+  display: block;
+  z-index: 9999;
+  top: 5rem;
+  left: 5rem;
+  //padding: 5rem;
+  //border: 3px black solid;
+}
+
+
+@media screen and (max-width:$size-med) {
+  .logoText {
+    top:1rem;
+    left:1rem;
+    padding: 2rem;
+  }
+  .logoBlot {
+    top:2rem;
+    left:2rem;
+  }
+}
+
+@media screen and (max-width:$size-med) {
+  .logo {
+    max-width: 150px;
+  }
+}
+
+main {
+  position: relative;
+  padding: 9rem 4rem;
+  min-height: none;
+}
+
+.container {
+  display: block;
+  position: relative;
+  z-index: 9998;
+  max-width: 120rem;
+  margin: 0 auto;
+  //background-color: white;
+}
+
+.angle-filler {
+  display: block;
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  width: 100%;
+  height: 400px;
+  opacity: 60%;
+  //mix-blend-mode:saturation;
+  // clip-path: url('/website/assets/images/clips.svg#myCurve');
+}
+.curve-1{
+  background-color: $color__orange;
+  clip-path: url(#curve-1-clip);
+}
+.curve-2{
+  background-color: $color__yellow;
+  clip-path: url(#curve-2-clip);
+}
+// .curve-3{
+//   background-color: #cea636;
+//   clip-path: url(#curve-1-clip);
+// }
+
+footer {
+  clear: both;
+  position: relative;
+  background-color: #111;
+  height: 300px;
+  padding: 9rem 3rem;
+  //clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+  clip-path: url(#footer-clip);
+}
+
+.person {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  margin-bottom: 2rem;
+}
+.person-bio {
+  padding: 0 2rem;
+}
+
+.person-headshot {
+  position:relative;
+  display:block;
+}
+
+.person-headshot::after {
+  content:"";
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,.6);
+  clip-path: polygon(0 98%, 100% 85%, 100% 100%, 0 100%);
+}
+
+@media screen and (max-width: $size-mobile) {
+  .person {
+    display: block;
+  }
+  .person-bio {
+    padding: 0;
+  }
+  .person-headshot {
+    width: 100%;
+  }
+}
+
+.affiliations {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    width: 40%;
+    display: block;
+    flex: 1 1 auto;
+    margin: 1rem;
+  }
+}
+
+.scrolly {
+  position: relative;
+  display: flex;
+
+  .scroll__text {
+    padding: 0 1rem;
+    max-width: 40rem;
+  }
+  .scroll__image {
+    position: relative;
+
+    .chart,
+    .diagram {
+      max-width: 500px;
+      position: sticky;
+      top:80px;
+      border: 1px solid grey;
+      object,
+      img {
+        // position: absolute;
+        // top: 0;
+        // left: 0;
+      }
+    }
+  }
+}

@@ -1,32 +1,35 @@
 ---
-layout: default
+layout: default-blot
 title: Team
 ---
 
   {% for person in site.people %}
-      <div class="row person">
-          <div class="col-12 col-md-4">
-              <img class="portait" src="{{ person.image }}"/>
+      <div class="person">
+          <div class="person-headshot">
+              <img class="portrait" src="{{ person.image }}"/>
           </div>
-          <div class="col-md-8">
-              <h2>{{ person.name }}</h2>
+          <div class="person-bio">
+              <h2 class="person-name">{{ person.name }}</h2>
 
-              <div class='position'>
+              <h5 class='position'>
                 {{ person.position }}
-              </div>
+              </h5>
 
-              {{ person.email }}
+              <span class="bio-item">{{ person.email }}</span><br/>
               {% if person.twitter %}
-              <a href="https://www.twitter.com/{{ person.twitter }}">Twitter</a>
+              <a class="bio-item" title="twitter" href="https://www.twitter.com/{{ person.twitter }}"><svg class='feather'>Twitter
+							  <use xlink:href='{{ "/assets/images/feather-sprite.svg#twitter" | relative_url }}'/></svg></a>
               {% endif  %}
               {% if person.website %}
-              <a href="{{ person.website }}">Website</a>
+              <a class="bio-item" title="website" href="{{ person.website }}"><svg class='feather'>Website
+							  <use xlink:href='{{ "/assets/images/feather-sprite.svg#home" | relative_url }}'/></svg></a>
               {% endif  %}
               {% if person.github %}
-              <a href="https://github.com/{{ person.github }}">Github</a>
+              <a class="bio-item" title="github" href="https://github.com/{{ person.github }}"><svg class='feather'>Github
+							  <use xlink:href='{{ "/assets/images/feather-sprite.svg#github" | relative_url }}'/></svg></a>
               {% endif  %}
 
-              <div class="page-content">
+              <div class="person-content">
                 {{ person.content | markdownify }}
               </div>
           </div>

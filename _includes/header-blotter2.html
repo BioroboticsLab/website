@@ -1,0 +1,25 @@
+
+	<div class="logoBlot">
+		<a href="{{ site.baseurl }}">
+		<span id='oneline1-target'></span>
+		</a>
+	</div>
+<header class="page-header">
+	<nav id="site-navigation" class="main-navigation">
+<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menu</button>
+	<ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
+		{%- assign page_paths = site.header_pages -%}
+    {%- for path in page_paths -%}
+			{%- assign my_page = site.pages | where: "path", path | first -%}
+      {%- if my_page.title -%}
+      <li class="nav-item">
+        <!-- my {{ my_page.url }}
+        page {{ page.url }}
+        -->
+        <a class="nav-link{% if page.url == my_page.url %} nav-link-active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape | upcase }}</a>
+      </li>
+      {%- endif -%}
+    {% endfor -%}
+	</ul>
+</nav>
+</header>

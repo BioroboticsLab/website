@@ -1,47 +1,28 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-  <div class="container">
-    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
-    {%- assign page_paths = site.header_pages -%}
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
-          <li class="nav-item">
-            <!-- my {{ my_page.url }}
-            page {{ page.url }}
-            -->
-            <a class="nav-link{% if page.url == my_page.url %} nav-link-active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape | upcase }}</a>
-          </li>
-          {%- endif -%}
-        {% endfor -%}
-
-
-
-    <!--    <li class="nav-item">
-          <a class="nav-link" href="./projects.html">PROJECTS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./people.html">PEOPLE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./publications.html">PUBLICATIONS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./teaching.html">TEACHING</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./work_with_us.html">WORK WITH US</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">CONTACT</a>
-        </li>-->
-      </ul>
-    </div>
-  </div>
+<div data-splitting class="logoText">
+		<a href="{{ site.baseurl }}">
+		LAND<br/>
+		GRAF<br/>
+		LAB_
+		</a>
+	</div>
+<header class="page-header">
+	<nav id="site-navigation" class="main-navigation">
+<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menu</button>
+	<ul id="primary-menu" class="menu nav-menu" aria-expanded="false">
+		{%- assign page_paths = site.header_pages -%}
+    {%- for path in page_paths -%}
+			{%- assign my_page = site.pages | where: "path", path | first -%}
+      {%- if my_page.title -%}
+      <li class="nav-item">
+        <!-- my {{ my_page.url }}
+        page {{ page.url }}
+        -->
+        <a class="nav-link{% if page.url == my_page.url %} nav-link-active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape | upcase }}</a>
+      </li>
+      {%- endif -%}
+    {% endfor -%}
+	</ul>
 </nav>
+</header>
+<div class="angle-filler curve-1"></div>
+<div class="angle-filler curve-2"></div>

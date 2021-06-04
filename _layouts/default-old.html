@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body {{ page.title | downcase }}>
+
+    {%- include header.html -%}
+
+    <div class="container">
+      <main class="{{ page.title | downcase }}-main">
+        {{ content }}
+      </main>
+    </div>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

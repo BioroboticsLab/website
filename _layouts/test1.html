@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+<script type="text/javascript" src="{{ '/assets/javascript/p5.min.js' | relative_url }}"></script>
+  <body class="{{ page.title | downcase }}">
+
+    {%- include header.html -%}
+
+    <div class="container">
+      <div class="diagonal">
+      <main class="{{ page.title | downcase }}-main">
+        {{ content }}
+      </main>
+    </div>
+    </div>
+    <div id="p5Vid"></div>
+    <!-- <canvas id="backgroundVid"></canvas> -->
+    {%- include footer.html -%}
+    <script type="text/javascript" src="{{ '/assets/javascript/test1.js' | relative_url }}"></script>
+    <!-- <script type="text/javascript" src="{{ '/assets/javascript/vid.js' | relative_url }}"></script> -->
+  </body>
+
+</html>

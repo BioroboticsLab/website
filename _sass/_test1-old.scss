@@ -1,0 +1,157 @@
+.test3 {
+  header {
+    background-color: #4eded7;
+  }
+}
+
+.test5 {
+  a {
+    color: magenta;
+  }
+  header {
+    background-color: #6840e4;
+  }
+  .main-navigation a,
+  .main-navigation a:visited {
+    color: white;
+
+  }
+}
+
+.team {
+  header {
+    background-color: #104222;
+    mix-blend-mode:multiply;
+    a,
+    a:visited {
+      color: white;
+    }
+  }
+}
+
+.splash {
+  .curvy {
+    margin: 2rem 2rem;
+    float: right;
+    max-width: 70rem;
+    background-color: white;
+    //clip-path: url(#box-clip);
+  }
+  header {
+    background-color:#205433;
+    mix-blend-mode:none;
+    clip-path: url(#curve-0-clip);
+    a,
+    a:visited {
+      color: white;
+    }
+    a:hover {
+      color: #eef137;
+    }
+  }
+  .test6-main {
+      //max-width: 50rem;
+      position: relative;
+      padding: 8rem 4rem;
+      min-height: none;
+  }
+
+  .angle-filler {
+    display: block;
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    width: 100%;
+    height: 400px;
+    opacity: 40%;
+    //mix-blend-mode: overlay;
+    // clip-path: url('/website/assets/images/clips.svg#myCurve');
+  }
+  .curve-1{
+    background-color: #eef137;
+    clip-path: url(#curve-1-clip);
+  }
+  .curve-2{
+    background-color: #dde646;
+    clip-path: url(#curve-2-clip);
+  }
+  .curve-3{
+    background-color: #cea636;
+    clip-path: url(#curve-1-clip);
+  }
+  footer {
+    //clip-path: url(#footer-clip);
+  }
+}
+
+
+.angle-filler {
+  display: block;
+  background-color: #de684e;
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  width: 100%;
+  //min-height: 230px;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
+
+.diagonal {
+  position: relative;
+  max-width: 65rem;
+  margin: 0 3rem;
+
+  &:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform: skewY(-9deg);
+  }
+}
+
+.test1-main,
+.test3-main,
+.test6-main {
+    //max-width: 50rem;
+    position: relative;
+    padding: 8rem 4rem;
+    min-height: none;
+}
+
+.diagonal-test5 {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+
+  &:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform: skewY(-5deg);
+  }
+}
+
+.test5-main {
+  margin: 4rem auto;
+  max-width: 120rem;
+  padding: 9rem 2rem;
+
+}
+
+@media screen and (max-width: $size-med) {
+  .test1-main,
+  .test3-main {
+    padding: 10rem 3rem;
+    font-size: 2rem;
+  }
+}

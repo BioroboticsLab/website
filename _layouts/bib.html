@@ -1,3 +1,6 @@
 ---
 ---
 {{ reference }}
+  {% if entry.url %}
+    <a href="{{ entry.url }}" target="_blank" rel="noopener">Link></a>
+  {% endif %}

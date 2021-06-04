@@ -1,0 +1,135 @@
+img {
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.alignRight {
+  width: 300px;
+  float: right;
+  margin: 0 0 2rem 1rem;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: $size-mobile) {
+  .alignRight {
+    width: 100%;
+    float: none;
+    margin: 0 0 2rem;
+  }
+}
+
+.svg-filters {
+  //visibility: hidden;
+}
+
+.portrait {
+  position: relative;
+  display: block;
+  //border-radius: 15px 50px;
+  width: 100%;
+  margin-bottom: 1rem;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+}
+
+.googleMap {
+  float: right;
+  margin-left: 2rem;
+  display: block;
+}
+
+@media screen and (max-width: $size-mobile) {
+  .googleMap {
+    float: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+#p5Vid {
+    position: fixed;
+    background-color: #aaa;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#beesbookVid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    //background: url(polina.jpg) no-repeat;
+    //background-size: cover;
+    //filter: url('/landgraflab-demo/assets/images/filter.svg#two-tone');
+}
+
+#backgroundVid {
+    position: fixed;
+    background-color: #aaa;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    //background: url(polina.jpg) no-repeat;
+    //background-size: cover;
+    filter: url('/landgraflab-demo/assets/images/filter.svg#two-tone');
+}
+
+#purpleVid {
+    position: fixed;
+    background-color: #aaa;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    //background: url(polina.jpg) no-repeat;
+    //background-size: cover;
+    filter: url('/landgraflab-demo/assets/images/filter.svg#purple');
+}

@@ -1,0 +1,148 @@
+p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  font-family: $landgraf-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 2rem;
+  color: $color__green;
+  font-weight: 200;
+  font-family: $landgraf-source;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 3.8rem;
+}
+
+h3 {
+  font-size: 2.6rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+}
+
+h5 {
+  font-size:2.2rem;
+}
+
+h6 {
+  font-size: 1.8rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+.logoText {
+  font-family: $landgraf-source;
+  font-size: 4.8rem;
+  letter-spacing: 6px;
+  font-variation-settings: 'wght' 100;
+  a,
+  a:visited {
+    color: white;
+  }
+}
+
+.logoText .char {
+	--delay: calc((var(--char-index) + 1) * 400ms);
+	animation: breathe 4000ms infinite both;
+	animation-delay: var(--delay);
+}
+
+logoText:hover span {
+	animation-play-state: paused;
+}
+
+@keyframes breathe {
+	0% {
+		font-variation-settings: 'wght' 100;
+	}
+	60% {
+		font-variation-settings: 'wght' 700;
+	}
+
+	100% {
+		font-variation-settings: 'wght' 100;
+	}
+}
+
+main ul,
+main ol {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.bibliography {
+  list-style: none;
+  li {
+    margin-bottom: 2rem;
+  }
+}
+
+.footer-text {
+   color: white;
+}
+
+.bio-item {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+.person-name {
+  margin-bottom: 0;
+}
+
+.person-content {
+  margin: 2rem 0;
+}
+
+// .person-bio h3 {
+//   margin-left: -6rem;
+//   transform-origin: 0 -50%;
+//   transform: rotate(-3deg);
+// }
+
+.table-responsive {
+  tr:nth-child(even) {
+    background-color:#eee;
+  }
+  font-size: 1.2rem;
+  font-family:sans-serif;
+  td {
+    margin-right: 1rem;
+    padding: 1rem;
+    min-width: 100px;
+  vertical-align: middle;
+}
+thead {
+  padding: 1rem;
+  font-style: italic;
+  text-transform: capitalize;
+  background-color: transparent;
+}
+}
+.feather {
+	width: 20px;
+  height: 20px;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}

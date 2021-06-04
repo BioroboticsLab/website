@@ -1,0 +1,14 @@
+<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 595.28">
+  <defs>
+    <clipPath id="myCurve" clipPathUnits="objectBoundingBox">
+      <path
+        d="M 0,1
+							L 0,0
+							L 1,0
+							L 1,1
+							C .8 .9, .35 .8, 0 .9
+							Z"
+      />
+    </clipPath>
+  </defs>
+</svg>

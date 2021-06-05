@@ -8,7 +8,7 @@ title: Contact
 
 ## Work with us!
 
-We are recruiting Bachelor and Master students. Interested? Call or write Tim, show up at our lab meetings (every Wednesday at 2 pm) or Journal clubs (every Friday at 4 pm).
+We are recruiting Bachelor and Master students. Interested? Call or write Tim! You can also meet us at our lab meetings (every Wednesday at 2 pm) or Journal clubs (every Friday at 4 pm). Until we've cleared covid-related restrictions the best way of meeting us is in our <a href="https://jitsi.physik.fu-berlin.de/BioroboticsDailyStandup">daily standup meeting</a> (Mon - Fri 9:30 am). 
 
 ## Contact
 

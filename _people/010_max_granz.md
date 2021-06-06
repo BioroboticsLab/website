@@ -2,7 +2,7 @@
 name: Maximilian Granz
 image: ./assets/images/max_granz.jpg
 position: PhD Student
-email: max.granz [at] fu-berlin.de
+email: max.granz@fu-berlin.de
 twitter: GranzMaximilian
 ---
 

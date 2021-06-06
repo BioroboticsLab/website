@@ -29,9 +29,10 @@ Coming up with some model isn’t that hard. It’s showing whether it is valid 
 **Figure:** *We have built robotic guppys that can interact with live fish in real-time. In one of our works we studied which adaptive strategies fish may employ to optimize their leadership performance when interaction partners may exhibit an (unknown) personality profile.*
 
 ### Research Dimension 4: Explainabilty and Interpretability
-Modern machine learning models (i.e. deep neural networks, DNNs) are powerful. They can learn virtually any mapping between input-output pairs. Whether we use DNNs to learn individual or collective behavior from data, or use DNNs in predicting cardiovascular risk, we would like some explanation as to why the model does what it does. Did the model use spurious correlations, or which features did it use?
 
-<img src="https://github.com/BioroboticsLab/IBA-paper-code/blob/master/monkeys.gif">
+<img class="alignRight" src="assets/images/monkeys.gif">
+
+Modern machine learning models (i.e. deep neural networks, DNNs) are powerful. They can learn virtually any mapping between input-output pairs. Whether we use DNNs to learn individual or collective behavior from data, or use DNNs in predicting cardiovascular risk, we would like some explanation as to why the model does what it does. Did the model use spurious correlations, or which features did it use?
 
 **Figure:** *To understand which input regions were relevant for the decision of a image classification network, we recently proposed restricting the amount of information that is allowed to flow through the network with so-called information bottlenecks. We introduce as much random noise into the activations of early network layers as possible without impairing the classification result. Those areas that received much noise are irrelevant!*
 

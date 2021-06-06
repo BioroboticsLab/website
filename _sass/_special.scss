@@ -7,3 +7,10 @@
     //clip-path: url(#box-clip);
   }
 }
+
+@media screen and (max-width: $size-mobile) {
+  .home .curvy {
+    margin: 2rem 0;
+    max-width: 100%;
+  }
+}

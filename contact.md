@@ -8,15 +8,16 @@ title: Contact
 
 ## Work with us!
 
-We are clever, work with us!
+We are recruiting Bachelor and Master students. Interested? Call or write Tim! You can also meet us at our lab meetings (every Wednesday at 2 pm) or Journal clubs (every Friday at 4 pm). Until we've cleared covid-related restrictions the best way of meeting us is in our <a href="https://jitsi.physik.fu-berlin.de/BioroboticsDailyStandup">daily standup meeting</a> (Mon - Fri 9:30 am). 
 
 ## Contact
 
-Landgraf Lab
-Dahlem Center for Machine Learning and Robotics
-Freie Universität Berlin
-Arnimallee 7
-14195 Berlin
+Landgraf Lab <br/>
+Dahlem Center for Machine Learning and Robotics <br/>
+Freie Universität Berlin <br/>
+Arnimallee 7 <br/>
+14195 Berlin <br/>
 
 Phone: +49 30 838 75 114
+
 Email: tim.landgraf [[AT]] fu-berlin.de

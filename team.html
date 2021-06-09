@@ -15,7 +15,8 @@ title: Team
                 {{ person.position }}
               </h5>
 
-              <span class="bio-item">{{ person.email }}</span><br/>
+              <a class="bio-item" title="email" href="mailto:{{ person.email }}"><svg class='feather'>Email
+							  <use xlink:href='{{ "/assets/images/feather-sprite.svg#mail" | relative_url }}'/></svg></a>
               {% if person.twitter %}
               <a class="bio-item" title="twitter" href="https://www.twitter.com/{{ person.twitter }}"><svg class='feather'>Twitter
 							  <use xlink:href='{{ "/assets/images/feather-sprite.svg#twitter" | relative_url }}'/></svg></a>

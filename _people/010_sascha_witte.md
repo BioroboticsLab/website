@@ -1,5 +1,6 @@
 ---
 name: Sascha Witte
+image: ./assets/images/sascha_witte.jpg
 position: Research Assistant
 ---
 

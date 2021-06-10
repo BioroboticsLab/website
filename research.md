@@ -8,7 +8,7 @@ The Landgraf lab studies complex <i>social</i> systems - collectives made of ind
 
 ### Research Dimension 1: Models of Individual Behavior
 
-<img class="alignRight" src="assets/images/2Guppys_model_SQIL.gif">
+<img class="alignRight" src="assets/images/guppies.gif">
 
 To understand how collectives can be smart and how group patterns emerge, we often simplify the system, creating models that represent how we <i>think</i> each individual works: Does it have a memory of past events? How is an observation of the environment translated to behavior? Rather than using the human brain to come up with a model, a part of the Landgraf lab is concerned with (machine) learning models of individual behavior. How can we leverage large amounts of data to extract a model that not only is as accurate but also as generic as possible? How can we control the level of abstraction and how can we make sure we humans learn something about the actual living system and not just about our model?
 

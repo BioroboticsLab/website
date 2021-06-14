@@ -4,9 +4,9 @@ title: Research
 ---
 <div class="scrolly">
   <div class="scroll__image">
-    <figure class="chart">
-      <img src="assets/images/2Guppys_model_SQIL.gif">
-    </figure>
+    <div class="diagram">
+      <img src="assets/images/guppies.gif">
+    </div>
   </div>
   <div class="scroll__text">
       <h4>Everything is connected. The nature of the world is much like a dense network of connected nodes, whether it may be molecules that interact, humans that communicate or weather systems that influence each other.</h4>

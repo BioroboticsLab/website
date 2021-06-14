@@ -159,19 +159,11 @@ footer {
   }
   .scroll__image {
     position: relative;
-
-    .chart,
     .diagram {
       max-width: 500px;
       position: sticky;
       top:80px;
       border: 1px solid grey;
-      object,
-      img {
-        // position: absolute;
-        // top: 0;
-        // left: 0;
       }
     }
-  }
 }

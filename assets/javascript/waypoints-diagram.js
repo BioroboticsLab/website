@@ -4,7 +4,7 @@ anime({
 });
 var diagramStep1 = anime.timeline({
   autoplay:false,
-  duration: 2000,
+  duration: 500,
   complete: function(anim) {
     anim.reverse();
     anim.pause();
@@ -42,17 +42,17 @@ var diagramStep5 = anime.timeline({
     anim.pause();
   }
 });
-var waypoint0 = new Waypoint({
-  element: document.getElementById('step0'),
-  handler: function(direction) {
-    anime({
-      update: function() {
-      document.getElementById('counter').innerHTML = 'there are currently ' + anime.running.length + ' instances running';
-      }
-    });
-  },
-  offset: "65%"
-});
+// var waypoint0 = new Waypoint({
+//   element: document.getElementById('step0'),
+//   handler: function(direction) {
+//     anime({
+//       update: function() {
+//       document.getElementById('counter').innerHTML = 'there are currently ' + anime.running.length + ' instances running';
+//       }
+//     });
+//   },
+//   offset: "65%"
+// });
 var waypoint1 = new Waypoint({
   element: document.getElementById('step1'),
   handler: function(direction) {
@@ -76,23 +76,18 @@ var waypoint1 = new Waypoint({
   },
   offset: "50%"
 });
-// var waypoint2 = new Waypoint({
-//   element: document.getElementById('step2'),
-//   handler: function(direction) {
-//     if (direction === 'down') {
-//       this.element.classList.add('story-entered');
-//       diagramStep2.add({
-//         targets: '#dot',
-//         opacity: 1,
-//       }).play();
-//     }
-//     else if (direction === 'up') {
-//       this.element.classList.remove('story-entered');
-//       diagramStep2.play();
-//     }
-//   },
-//   offset: "50%"
-// });
+var waypoint2 = new Waypoint({
+  element: document.getElementById('step2'),
+  handler: function(direction) {
+    if (direction === 'down') {
+      this.element.classList.add('story-entered');
+    }
+    else if (direction === 'up') {
+      this.element.classList.remove('story-entered');
+    }
+  },
+  offset: "50%"
+});
 var waypoint3 = new Waypoint({
   element: document.getElementById('step3'),
   handler: function(direction) {
@@ -145,12 +140,11 @@ var waypoint4 = new Waypoint({
         targets: ['#box1','#box2','#box3'],
         scaleX: {
           delay: 500,
-          duration: 1000,
           value: .5
         },
         skewY: {
+          delay:500,
           value: -10,
-          delay: 1000,
         },
         translateX: {
           value: function(el, i) {
@@ -182,6 +176,10 @@ var waypoint5 = new Waypoint({
       this.element.classList.add('story-entered');
       diagramStep5.add({
         targets: ['#box1','#box2','#box3'],
+        skewY: {
+          value: 10,
+          duration: 500
+        },
         scaleX: .2,
         translateX: 1000,
         opacity: 0

@@ -2,7 +2,6 @@
 layout: page
 title: Research
 ---
-<div id="counter"></div>
 <div class="scrolly">
   <div class="scroll__image">
     <div class="diagram">
@@ -24,19 +23,21 @@ title: Research
   <div class="scroll__text">
       <h3 id="step0">Research Dimension 2: Models of Group Behavior</h3>
     <div id="step1" class="step" data-step="1">
-      <p>Similarly, we can use machine learning to come up with a model that reflects the general properties of the group dynamics (rather than using the individual models to simulate a group). Looking at many hundred or thousand honeybees, for example, we have been able to study life-long social networks and learn about different interaction patterns bees produce when performing one of the many roles there are in a colony. Now, we can invert this idea: knowing with whom you meet tells us something about your task in the collective!</p>
+      <p>Similarly, we can use machine learning to come up with a model that reflects the general properties of the group dynamics (rather than using the individual models to simulate a group). Looking at many hundred or thousand honeybees, for example, we have been able to study life-long social networks and learn about different interaction patterns bees produce when performing one of the many roles there are in a colony.</p>
     </div>
     <div id="step2" class="step" data-step="2">
-      <p><strong>Figure:</strong> With our bee tracking system "BeesBook", we obtained lifetime tracking data for several thousand bees (a).Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sapien urna, condimentum non maximus nec, faucibus in velit. Mauris sodales volutpat tortor, convallis viverra dolor mattis eu. Aenean id venenatis urna. Sed porttitor posuere lobortis. Etiam sed blandit elit. Phasellus tempor est nec lorem bibendum, a imperdiet ex ultricies. Sed rutrum imperdiet tortor, non lobortis elit. </p>
+      <p>Now, we can invert this idea: knowing with whom you meet tells us something about your task in the collective!</p>
+      <p><strong>Figure:</strong> With our bee tracking system "BeesBook", we obtained lifetime tracking data for several thousand bees (a).</p>
     </div>
     <div id="step3" class="step" data-step="3">
-        <p>These tracks are used to construct multiple weighted social interaction networks (b).Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sapien urna, condimentum non maximus nec, faucibus in velit. Mauris sodales volutpat tortor, convallis viverra dolor mattis eu. Aenean id venenatis urna. Sed porttitor posuere lobortis. Etiam sed blandit elit. Phasellus tempor est nec lorem bibendum, a imperdiet ex ultricies. Sed rutrum imperdiet tortor, non lobortis elit. </p>
+        <p>These tracks are used to construct multiple weighted social interaction networks (b).</p>
     </div>
     <div id="step4" class="step" data-step="4">
-        <p>We aggregate daily networks (c) to then extract embeddings that group bees together with similar interaction patterns, using spectral decomposition (d).Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sapien urna, condimentum non maximus nec, faucibus in velit. Mauris sodales volutpat tortor, convallis viverra dolor mattis eu. Aenean id venenatis urna. Sed porttitor posuere lobortis. Etiam sed blandit elit. Phasellus tempor est nec lorem bibendum, a imperdiet ex ultricies. Sed rutrum imperdiet tortor, non lobortis elit. </p>
+        <p>We aggregate daily networks (c) to then extract embeddings that group bees together with similar interaction patterns, using spectral decomposition (d). </p>
+        <p>Finally, we use a linear transformation (e; CCA canonical-correlation analysis) that maximizes correlation with the fraction of time spent in different nest areas (f)</p>
     </div>
     <div id="step5" class="step" data-step="5">
-        <p>Finally, we use a linear transformation (e; CCA canonical-correlation analysis) that maximizes correlation with the fraction of time spent in different nest areas (f) to compress them into a single number per day called “network age” (g). Figure taken from [(Wild et al. 2021)](https://www.nature.com/articles/s41467-021-21212-5).Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sapien urna, condimentum non maximus nec, faucibus in velit. Mauris sodales volutpat tortor, convallis viverra dolor mattis eu. Aenean id venenatis urna. Sed porttitor posuere lobortis. Etiam sed blandit elit. Phasellus tempor est nec lorem bibendum, a imperdiet ex ultricies. Sed rutrum imperdiet tortor, non lobortis elit. </i></p>
+    <p>to compress them into a single number per day called “network age” (g). Figure taken from [(Wild et al. 2021)](https://www.nature.com/articles/s41467-021-21212-5).</i></p>
     </div>
   </div>
   <div class="scroll__image">
@@ -171,6 +172,21 @@ title: Research
     </div>
   </div>
 </div>
+
+### Research Dimension 3: Robots that interact with the living system
+Coming up with some model isn’t that hard. It’s showing whether it is valid or under which circumstances it may not. Among many established methods we have invested much time in creating physical animal models that look and act like their animal counterparts. These biomimetic robots can observe the real environment and act upon it. This way, we can learn about how different actions affect the group for example. Robots can be used for a wide variety of questions and applications. We have used quadrocopters to record neural activity of bees that were flown over real-world scenes, or model cars to test whether exchanging energy between electric cars can help reduce range anxiety.
+
+<img class="fullWidth" src="assets/images/follow_me.png">
+
+**Figure:** *We have built robotic guppys that can interact with live fish in real-time. In one of our works we studied which adaptive strategies fish may employ to optimize their leadership performance when interaction partners may exhibit an (unknown) personality profile.*
+
+### Research Dimension 4: Explainabilty and Interpretability
+
+<img class="alignRight" src="assets/images/monkeys.gif">
+
+Modern machine learning models (i.e. deep neural networks, DNNs) are powerful. They can learn virtually any mapping between input-output pairs. Whether we use DNNs to learn individual or collective behavior from data, or use DNNs in predicting cardiovascular risk, we would like some explanation as to why the model does what it does. Did the model use spurious correlations, or which features did it use?
+
+**Figure:** *To understand which input regions were relevant for the decision of a image classification network, we recently proposed restricting the amount of information that is allowed to flow through the network with so-called information bottlenecks. We introduce as much random noise into the activations of early network layers as possible without impairing the classification result. Those areas that received much noise are irrelevant!*
 
 ### Funding and Sponsoring
 

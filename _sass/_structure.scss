@@ -152,26 +152,41 @@ footer {
 .scrolly {
   position: relative;
   display: flex;
-
+  width: 100%;
+  p {
+    font-size: 2rem;
+    line-height: 2.6rem;
+    margin-bottom: 8rem;
+  }
   .scroll__text {
-    padding: 0 1rem;
-    max-width: 40rem;
+    padding: 0 2rem;
+    //max-width: 40rem;
   }
   .scroll__image {
     position: relative;
-
-    .chart,
+    width: 500px;
+    flex: 1 0 auto;
     .diagram {
-      max-width: 500px;
+      width: 100%;
       position: sticky;
-      top:80px;
-      border: 1px solid grey;
-      object,
-      img {
-        // position: absolute;
-        // top: 0;
-        // left: 0;
+      top: 80px;
+      margin-bottom: 2rem;
+      //border: 1px solid grey;
       }
     }
-  }
+}
+
+.bees-story {
+  background-image: url('images/beesbook.jpg');
+}
+
+.transform-bees {
+  background-image: none;
+  transition: background-image 2s ease-out;
+}
+
+#counter {
+  position: fixed;
+  bottom: 10;
+  right: 10;
 }

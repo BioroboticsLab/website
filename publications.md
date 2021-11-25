@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Publications
+title: Publications 
 ---
+
+<a href="https://scholar.google.de/citations?user=ChX0opIAAAAJ&hl=en"> view on Google Scholar </a>
 
 ## 2021
 

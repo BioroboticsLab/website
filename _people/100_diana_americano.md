@@ -1,6 +1,6 @@
 ---
 name: Diana Paola Americano Guerrero
-image: assets/images/diana_americano.jpg
+image: assets/images/diana_americano.jpeg
 position: Student Assistant
 ---
 

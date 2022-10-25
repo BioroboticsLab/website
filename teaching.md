@@ -2,6 +2,12 @@
 layout: page
 title: Teaching
 ---
+
+# Winter Term 2022/2023: Tim on Sabbatical
+<div class="videoWrapper">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/5MMt-SmYWC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 # Winter Term 2021/2022: Computer Vision
 <div class="videoWrapper">
   <iframe src="https://www.youtube.com/embed/videoseries?list=PLs7Vp-pCDX7yrUmgkxAEdNcgriOU6IBg5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

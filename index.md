@@ -17,10 +17,14 @@ The Landgraf Lab works at the interface of biology and computer science to study
 * [Prof. Dr. Michael Smith](https://smithbeelab.com/pages/people/) - Auburn University
 * [Prof. Dr. Christoph Benzmüller](http://page.mi.fu-berlin.de/cbenzmueller/) - FU Berlin
 * [Prof. Dr. Ralf Romeike](https://www.mi.fu-berlin.de/inf/groups/ag-ddi/team/prof/rromeike.html) - FU Berlin
+* [Prof. Dr. James Nieh](https://biology.ucsd.edu/research/faculty/jnieh) - UC San Diego
+
 
 ## Affiliations
 <div class="affiliations">
 <a href="https://www.mi.fu-berlin.de/inf/groups/ag-ki/index.html"><img src="assets/images/DCMLR.png"></a>
 <a href="https://www.scienceofintelligence.de/"><img src="assets/images/ScioI_Logo_L.svg.png"></a>
 <a href="https://www.berlin-university-alliance.de/"><img src="assets/images/BUA_logo.png"></a>
+<br/>
+<a href="https://braincity.berlin/en/"><img src="assets/images/braincity_logo.jpeg"></a>
 </div>

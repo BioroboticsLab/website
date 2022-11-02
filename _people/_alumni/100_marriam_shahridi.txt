@@ -1,0 +1,8 @@
+---
+name: Mariam Shahrudi
+image: ./assets/images/mariam_shahrudi.jpg
+position: Master Student / Student Assistant
+email: mariam.shahrudi@yahoo.com 
+---
+
+Mariam is a linguistics Master student interested in computational linguistics and neurolinguistics. With 6 years of experience as a Data/Text Miner and an international background she is currently supporting the PetraKIP project as a student assistent.

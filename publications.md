@@ -13,6 +13,10 @@ title: Publications
 
 {% bibliography --file lab_publications --query @*[year=2022] %}
 
+## 2021
+
+{% bibliography --file lab_publications --query @*[year=2021] %}
+
 ## 2020
 
 {% bibliography --file lab_publications --query @*[year=2020] %}

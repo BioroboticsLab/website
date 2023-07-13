@@ -8,6 +8,7 @@ The Landgraf Lab works at the interface of biology and computer science to study
 
 ##  Collaborators
 
+* [Prof. Dr. Dirk Brockmann](https://rocs.hu-berlin.de/) - HU Berlin, Robert-Koch-Institut Berlin
 * [Prof. Dr. Jens Krause](https://www.igb-berlin.de/en/profile/jens-krause) – Biologie und Ökologie der Fische, IGB Berlin and HU Berlin
 * [Dr. David Bierbach](http://www.davidbierbach.com/) - HU Berlin
 * [Prof. Dr. Dr. h.c. Randolf Menzel](https://www.bcp.fu-berlin.de/en/biologie/arbeitsgruppen/neurobiologie/ag_menzel/index.html) – Neurobiology, FU Berlin

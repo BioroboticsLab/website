@@ -154,17 +154,17 @@ footer {
   display: flex;
   width: 100%;
   p {
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 2.6rem;
     margin-bottom: 8rem;
   }
   .scroll__text {
     padding: 0 2rem;
-    //max-width: 40rem;
+    //max-width: 60rem;
   }
   .scroll__image {
     position: relative;
-    width: 500px;
+    width: 400px;
     flex: 1 0 auto;
     .diagram {
       width: 100%;
@@ -174,7 +174,19 @@ footer {
       //border: 1px solid grey;
       }
     }
-}
+    .scroll__video{
+      position: relative;
+      width: 400px;
+      flex: 1 0 auto;
+      .diagram {
+        width: 100%;
+        position: sticky;
+        top: 80px;
+        margin-bottom: 2rem;
+        //border: 1px solid grey;
+      }
+    }
+  }
 
 .bees-story {
   background-image: url('images/beesbook.jpg');
@@ -190,3 +202,4 @@ footer {
   bottom: 10;
   right: 10;
 }
+

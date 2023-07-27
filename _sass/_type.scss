@@ -117,11 +117,22 @@ main ol {
 // }
 
 .table-responsive {
+
+  font-size: 1.2rem;
+  font-family:sans-serif;
+
+  th {
+    font-weight: normal;
+    text-align: left;
+    padding: 8px;
+  }
   tr:nth-child(even) {
     background-color:#eee;
   }
-  font-size: 1.2rem;
-  font-family:sans-serif;
+
+  tr {
+    //max-height: 100px;
+  }
   td {
     margin-right: 1rem;
     padding: 1rem;
@@ -129,10 +140,12 @@ main ol {
   vertical-align: middle;
 }
 thead {
-  padding: 1rem;
+  padding: 8rem;
   font-style: italic;
   text-transform: capitalize;
-  background-color: transparent;
+  background-color: dimgray;
+  font-size: 10pt;
+  color: whitesmoke;
 }
 }
 .feather {

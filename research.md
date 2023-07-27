@@ -23,7 +23,7 @@ title: Research
 </div>
 
 <div class="scrolly">
-  <div class="scroll__video">
+  <div class="scroll__image">
     <div class="diagram">
       <img src="assets/videos/BeesBook_ZoomOut.gif">
     </div>
@@ -38,7 +38,7 @@ title: Research
 </div>
 
 <div class="scrolly">
-  <div class="scroll__video">
+  <div class="scroll__image">
     <div class="diagram">
       <img src="assets/videos/Landgraf_Lab_BioRobotics.gif">
     </div>
@@ -52,7 +52,7 @@ title: Research
 </div>
 
 <div class="scrolly">
-  <div class="scroll__video">
+  <div class="scroll__image">
     <div class="diagram">
       <img src="assets/images/monkeys.gif">
     </div>

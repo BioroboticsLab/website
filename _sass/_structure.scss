@@ -153,6 +153,11 @@ footer {
   position: relative;
   display: flex;
   width: 100%;
+
+  @media (max-width: 800px) { /* change to column on smaller screens */
+    flex-direction: column;
+  }
+
   p {
     font-size: 1.6rem;
     line-height: 2.6rem;

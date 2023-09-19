@@ -1,7 +1,7 @@
 ---
 name: Luis Herrmann
 image: ./assets/images/luis_herrmann.jpg
-position: PhD Student
+position: PhD Student 
 email: 'luis.herrmannn@fu-berlin.de'
 ---
 

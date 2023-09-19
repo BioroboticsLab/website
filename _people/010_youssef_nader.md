@@ -1,7 +1,7 @@
 ---
 name: Youssef Nader
 image: assets/images/youssef_nader.jpg
-position: Master Student
+position: PhD Student
 github: younader
 email: youssen96@zedat.fu-berlin.de
 ---

@@ -78,40 +78,64 @@ We would like to thank the following funding agencies and sponsors for their gen
         </thead>
         <tbody>
             <tr>
-                <td> 2021 - 2024</td>
+                <td>2023 - 2026</td>
+                <td>Sublethal FX</td>
+                <td>Using Novel Tools to Resolve an Old Issue in Bee Ecotoxicology - Application of Digital Methods to Understand Sublethal Effects of Pesticides to Bees and Their Significance in Regulatory Risk Assessment</td>
+                <td>Bayer Crop Science</td>
+            </tr>
+            <tr>
+                <td>2023 - 2026</td>
+                <td>Open.Make II</td>
+                <td>Implementing Open and FAIR Hardware</td>
+                <td>Berlin University Alliance</td>
+            </tr>
+            <tr>
+                <td>2022 - 2024</td>
+                <td>IMPACT</td>
+                <td>Implementierung von KI-basiertem Feedback und Assessment mit Trusted Learning Analytics in Hochschulen</td>
+                <td>BMBF</td>
+            </tr>
+            <tr>
+                <td>2021 - 2024</td>
                 <td>PetraKIP</td>
                 <td>Persönliches transparentes KI-basiertes Portfolio für die Lehrerbildung</td>
-                <td><img src="assets/images/BMBF_Logo.svg"></td>
+                <td>BMBF</td>
+            </tr>
+            <tr>
+                <td>2021 - 2023</td>
+                <td>Open.Make I</td>
+                <td>Towards Open and FAIR Hardware</td>
+                <td>BMBF</td>
             </tr>
             <tr>
                 <td>2020 - 2023</td>
                 <td>ElektroFish</td>
                 <td>Roboter, die mit Fischen kommunizieren: Untersuchung der Rolle elektrischer Signale und Bewegungsmustern nach Episoden gegenseitiger Aufmerksamkeit bei schwach elektrischen Fischen</td>
-                <td><img src="assets/images/DFG-logo-blau.svg"></td>
+                <td>DFG</td>
             </tr>
             <tr>
                 <td>2019 - 2021</td>
                 <td>BrainRL</td>
                 <td>Learning the Language of the Brain: Adaptive Brain-Machine Interfaces Maximize Information Transfer Through Autonomous Interaction with Brain Tissue</td>
-                <td><img src="assets/images/Logo_Volkswagenstiftung.svg"></td>
+                <td>Volkswagen Foundation</td>
             </tr>
             <tr>
                 <td>2019 - 2024</td>
                 <td>Hiveopolis</td>
                 <td>Futuristic Beehives for a smart Metropolis</td>
-                <td><img src="assets/images/logo-H2020.png"></td>
+                <td>EU H2020 FET</td>
             </tr>
             <tr>
                 <td>2017 - 2021</td>
                 <td>RoboFish</td>
                 <td>Mixed Shoals of Live Fish and Interactive Robots for the Analysis of Collective Behavior in Fish</td>
-                <td><img src="assets/images/DFG-logo-blau.svg"></td>
+                <td>DFG</td>
             </tr>
             <tr>
                 <td>2016 - 2021</td>
                 <td>NeuroCopter</td>
                 <td>Robotik in der Neurobiologie: Ziele finden mit einem winzigen Gehirn. Die neuronalen Grundlagen der Navigation der Bienen.</td>
-                <td><img src="assets/images/Klaus-Tschira-Stiftung_Logo.png"></td>
+                <td>Dr.-Klaus-Tschira-Stiftung</td>
             </tr>
         </tbody>
     </table>

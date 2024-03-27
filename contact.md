@@ -6,11 +6,15 @@ title: Contact
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.2276276590846!2d13.29442991607577!3d52.45690487980226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85a6feed59081%3A0xf1f03e1709d7e38!2sArnimallee%207%2C%2014195%20Berlin!5e0!3m2!1sen!2sde!4v1615894542277!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
 
-## Work with us!
+## Media Enquiries
 
-We are recruiting Bachelor and Master students. Interested? Call or write Tim! You can also meet us at our lab meetings (every Wednesday at 11:30 am). The meeting will smoothly become lunch, so bring food! 
+Please contact Mrs. Susanne Schöttker-Söhl (+49 30 838 75 102).
 
-## Contact
+## Students, work with us!
+
+We are recruiting Bachelor and Master students. Interested? Call or write Tim (+49 30 838 75 114)! If you are based in Berlin, you can also meet us at our lab meetings (every Wednesday at 11:30 am). The meeting will smoothly become lunch, so bring food! 
+
+## Lab Address
 
 Landgraf Lab <br/>
 Dahlem Center for Machine Learning and Robotics <br/>
@@ -18,6 +22,3 @@ Freie Universität Berlin <br/>
 Arnimallee 7 <br/>
 14195 Berlin <br/>
 
-Phone: +49 30 838 75 114
-
-Email: tim.landgraf [[AT]] fu-berlin.de

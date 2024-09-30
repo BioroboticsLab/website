@@ -54,6 +54,42 @@ img {
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
 }
 
+.portrait_alumni {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100px; // Ensure image doesn't exceed container width
+  object-fit: cover; // Adjust if you want images to fill their container
+  box-sizing: border-box;
+  margin-top: auto;
+  margin: 0 auto;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+}
+
+.alumni {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Space between items */
+  justify-content: flex-start; /* Align items to the left */
+}
+
+.person_alumni {
+  flex: 1 1 100px;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+div.person {
+  margin-bottom: 30px;
+
+  .page-content {
+      margin-top: 20px;
+  }
+}
+
 .googleMap {
   float: right;
   margin-left: 2rem;

@@ -1,7 +1,7 @@
 ---
 name: Tim Landgraf
 image: ./assets/images/tim_landgraf.jpg
-position: Assistant Professor
+position: Professor
 email: tim.landgraf@fu-berlin.de
 twitter: tlandgraf
 ---

@@ -18,6 +18,13 @@ img.portait {
     max-width: 200px;
 }
 
+.alumni {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Space between items */
+    justify-content: flex-start; /* Align items to the left */
+}
+
 div.person {
     margin-bottom: 30px;
 
@@ -28,6 +35,13 @@ div.person {
         font-weight: bolder;
     }
 }
+
+div.person_alumni {
+    flex: 1 1 200px; // Grow and shrink with a base width of 200px
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
 
 #homepageTeamPic {
     margin-top: 1rem;

@@ -36,3 +36,19 @@ title: Team
           </div>
       </div>
   {% endfor %}
+
+  <h2>Alumni</h2>
+  <p>Thanks to our past team members for their contributions! (Listing only those who have provided a headshot.)</p>
+  <div class="alumni">
+  {% for person in site.alumni %}
+      <div class="person_alumni">
+        <div class="person-bio_alumni">
+          <h5 class="person-name">{{ person.name }}</h5>
+        </div>  
+        <div class="person-headshot">
+              <img class="portrait_alumni" src="{{ person.image }}"/>
+        </div>
+      </div>
+  {% endfor %}
+  </div>
+

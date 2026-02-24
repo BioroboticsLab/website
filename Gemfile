@@ -14,6 +14,6 @@ gem "ffi", "1.16.3"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", group: :jekyll_plugins
 
-gem "jekyll-scholar", group: :jekyll_plugins
+gem "jekyll-scholar", "~> 7.1", group: :jekyll_plugins
 
 #gem "liquid", "~> 4.0"

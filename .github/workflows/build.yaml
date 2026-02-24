@@ -6,12 +6,22 @@ on:
 jobs:
   jekyll:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v4
+
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.2'
         bundler-cache: true
-    - uses: helaili/jekyll-action@v2
+
+    - name: Build Jekyll site
+      run: bundle exec jekyll build
+
+    - name: Deploy to gh-pages
+      uses: peaceiris/actions-gh-pages@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
+        publish_branch: gh-pages

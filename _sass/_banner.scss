@@ -1,0 +1,54 @@
+// Site-wide notice: the lab is winding down.
+// Sits above .site-top, which is the positioning context for the
+// absolutely placed logo and the angle-fillers below it.
+
+.site-top {
+  position: relative;
+}
+
+.lab-notice {
+  position: relative;
+  z-index: 10000;
+  display: block;
+  background-color: $color__yellow;
+  border-bottom: 4px solid $color__orange;
+}
+
+.lab-notice__inner {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2.4rem 4rem;
+}
+
+.lab-notice__title {
+  margin-bottom: 0.8rem;
+  color: $color__green;
+  font-family: $landgraf-source;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.lab-notice__text {
+  max-width: 90rem;
+  margin-bottom: 0;
+  color: $color__green;
+  font-family: $landgraf-sans;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
+
+@media screen and (max-width: $size-med) {
+  .lab-notice__inner {
+    padding: 2rem;
+  }
+  .lab-notice__title {
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+  }
+  .lab-notice__text {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+}

@@ -728,5 +728,55 @@ div.person .page-content {
     max-width: 100%;
   }
 }
+.site-top {
+  position: relative;
+}
+
+.lab-notice {
+  position: relative;
+  z-index: 10000;
+  display: block;
+  background-color: #ddd672;
+  border-bottom: 4px solid #caa009;
+}
+
+.lab-notice__inner {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2.4rem 4rem;
+}
+
+.lab-notice__title {
+  margin-bottom: 0.8rem;
+  color: #1a3122;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.lab-notice__text {
+  max-width: 90rem;
+  margin-bottom: 0;
+  color: #1a3122;
+  font-family: "Verdana", -apple-system, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
+
+@media screen and (max-width: 699px) {
+  .lab-notice__inner {
+    padding: 2rem;
+  }
+  .lab-notice__title {
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+  }
+  .lab-notice__text {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

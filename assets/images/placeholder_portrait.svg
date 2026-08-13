@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Portrait photo pending">
+  <rect width="600" height="600" fill="#1a3122"/>
+  <g fill="#ffffff" opacity="0.22">
+    <circle cx="300" cy="232" r="96"/>
+    <path d="M300 352c-105 0-190 76-190 170v78h380v-78c0-94-85-170-190-170z"/>
+  </g>
+</svg>

@@ -10,10 +10,6 @@ title: Contact
 
 Please contact Mrs. Susanne Schöttker-Söhl (+49 30 838 75 102).
 
-## Students, work with us!
-
-We are recruiting Bachelor and Master students. Interested? Call or write Tim (+49 30 838 75 114)! We have weekly lab meetings (every Tuesday at 11:00 am, hybrid meeting) which are open to anyone interested in our work. Please ask Tim for a link and you will be invited.
-
 ## Lab Address
 
 Landgraf Lab <br/>

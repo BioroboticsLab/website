@@ -5,6 +5,14 @@ title: Publications
 
 <a href="https://scholar.google.de/citations?user=ChX0opIAAAAJ&hl=en"> view on Google Scholar </a>
 
+## 2026
+
+{% bibliography --file lab_publications --query @*[year=2026] %}
+
+## 2025
+
+{% bibliography --file lab_publications --query @*[year=2025] %}
+
 ## 2024
 
 {% bibliography --file lab_publications --query @*[year=2024] %}

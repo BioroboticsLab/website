@@ -83,6 +83,37 @@ a:focus {
     content: " \25B2";
 }
 
+// On a phone the menu collapses to a single button; park it in the top-right
+// corner clear of the logo rather than relying on the fixed 200px left margin.
+@media screen and (max-width: $size-med) {
+	.main-navigation {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 1.5rem 1.5rem 10rem;
+		text-align: right;
+	}
+
+	// A <button> shrink-wraps even when display:block, so text-align on the
+	// parent will not move it; push it over with an auto left margin.
+	.main-navigation button {
+		width: auto;
+		margin-left: auto;
+	}
+
+	// The logo is absolutely positioned and overlays this column, so the
+	// expanded menu has to start below it.
+	.main-navigation.toggled ul {
+		margin-top: 10rem;
+	}
+
+	// The header's curve is clipped as a proportion of its height, so it cuts
+	// through the open menu no matter how tall the header grows. Drop the curve
+	// while the panel is open; it comes back when the menu closes.
+	.page-header:has(.main-navigation.toggled) {
+		clip-path: none;
+	}
+}
+
 @media screen and (min-width: $size-med) {
 	.menu-toggle {
 		display: none;

@@ -20,6 +20,16 @@ body {
   //border: 3px black solid;
 }
 
+// Was set with inline attributes on the <img>, which cannot be overridden
+// per breakpoint.
+.logoMark {
+  float: left;
+  position: relative;
+  width: 100px;
+  top: -40px;
+  left: -10px;
+}
+
 .logoBlot {
   position: absolute;
   display: block;
@@ -32,10 +42,21 @@ body {
 
 
 @media screen and (max-width:$size-med) {
+  // The nav reserved room for the logo with a fixed 200px left margin, but the
+  // logo is wider than that on a phone, so the menu button landed on top of it.
+  // Scale the logo down to fit alongside the button instead.
   .logoText {
     top:1rem;
     left:1rem;
-    padding: 2rem;
+    padding: 1.5rem;
+    font-size: 3.2rem;
+    letter-spacing: 3px;
+    line-height: 3.8rem;
+  }
+  .logoMark {
+    width: 62px;
+    top: -22px;
+    left: -6px;
   }
   .logoBlot {
     top:2rem;

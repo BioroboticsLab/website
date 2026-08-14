@@ -4,13 +4,13 @@ title: Teaching
 ---
 
 #### Winter Term 2025/2026: Machine Learning
-Bayesian methods for pattern recognition, clustering, expectation maximization, neural networks and learning algorithms, associative and recurrent networks. The course closes with computer vision using neural networks and applications in robotics.
+A full pass through modern machine learning, from first principles to current architectures. We start with the classical toolkit — k-nearest neighbors, clustering, linear and logistic regression, model validation and PCA — and then turn to ensemble methods: decision trees, random forests, and boosting up to Viola-Jones. The second half builds neural networks from the perceptron upward, working through gradient descent, backpropagation and modern optimizers to convolutional networks, unsupervised representation learning with VAEs, normalizing flows and GANs, recurrent networks, and finally attention and transformers. The closing lecture is on attribution and adversarial examples: figuring out what a trained model has actually learned, and where it breaks. Weekly assignments are hands-on Jupyter notebooks.
 
 [--> Go To Full Course Description](https://www.mi.fu-berlin.de/inf/groups/ag-ki/Teaching/WS-25_26/Machine-Learning/index.html)  
 [--> Assignments on GitHub](https://github.com/BioroboticsLab/ml2526_assignments)
 
 #### Winter Term 2024/2025: Computer Vision
-Computer vision is concerned with recognizing objects and events in camera images. In contrast to pure image processing, we usually work with sequences of images. The lecture covers the publications that paved the way to the present state of the art, and closes with a detailed look at where the field stands today.
+Computer vision is concerned with recognizing objects and events in camera images; in contrast to pure image processing, we usually work with sequences of images. The course follows the field from its classical foundations to the present state of the art: image I/O and color spaces, feature detection and the Hough transform, optical flow and tracking. From there it moves to learned approaches — backpropagation and neural networks built from scratch, object detection with YOLO, pose estimation with OpenPose, and finally vision transformers. In the weekly Jupyter assignments, students implement each of these core algorithms themselves.
 
 [--> Go To Full Course Description](https://www.mi.fu-berlin.de/inf/groups/ag-ki/Teaching/WS-24_25/Computervision/index.html)  
 [--> Assignments on GitHub](https://github.com/BioroboticsLab/cv2425_assignments)

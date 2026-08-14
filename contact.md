@@ -10,6 +10,14 @@ title: Contact
 
 Please contact Mrs. Susanne Schöttker-Söhl (+49 30 838 75 102).
 
+## Students
+
+We are no longer taking on new students at any level — Bachelor, Master or doctoral. The lab is winding down and will close on 31 March 2027. Thank you for your interest.
+
+## RoboFish and BeesBook
+
+If you would like to use our RoboFish or BeesBook platforms in your own research, [CIATA](https://ciata.io/en/) — our AI spin-off from Freie Universität Berlin — can support both systems on a commercial basis. Please get in touch with them directly.
+
 ## Lab Address
 
 Landgraf Lab <br/>

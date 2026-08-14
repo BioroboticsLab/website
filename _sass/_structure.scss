@@ -100,7 +100,8 @@ footer {
 
 .person {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  // The portrait fills this column, so its width is the knob for headshot size.
+  grid-template-columns: 220px 1fr;
   margin-bottom: 2rem;
 }
 .person-bio {
@@ -112,17 +113,9 @@ footer {
   display:block;
 }
 
-.person-headshot::after {
-  content:"";
-  position: absolute;
-  z-index: 100;
-  top: 0;
-  left:0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(255,255,255,.6);
-  clip-path: polygon(0 98%, 100% 85%, 100% 100%, 0 100%);
-}
+// Portraits are left as plain squares. The headshots come from many different
+// cameras and settings, so they are unified with a grayscale filter (see
+// _media.scss) rather than with shape treatments, which fought the photos.
 
 @media screen and (max-width: $size-mobile) {
   .person {
@@ -132,7 +125,10 @@ footer {
     padding: 0;
   }
   .person-headshot {
-    width: 100%;
+    // Match the desktop portrait rather than stretching to the full column,
+    // which would make headshots larger on a phone than on a monitor.
+    width: 220px;
+    max-width: 100%;
   }
 }
 

@@ -51,7 +51,6 @@ img {
   //border-radius: 15px 50px;
   width: 100%;
   margin-bottom: 1rem;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
 }
 
 .portrait_alumni {
@@ -63,7 +62,17 @@ img {
   box-sizing: border-box;
   margin-top: auto;
   margin: 0 auto;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+}
+
+// Photos are left as they are, with softened corners as the only treatment.
+.portrait {
+  border-radius: 20px;
+}
+
+// Alumni thumbnails are 100px against the portraits' 220px, so the radius is
+// scaled down to keep the corners looking the same at their smaller size.
+.portrait_alumni {
+  border-radius: 9px;
 }
 
 .alumni {

@@ -33,6 +33,23 @@ img {
   }
 }
 
+// Embeds outside .videoWrapper carry fixed pixel width/height attributes (the
+// YouTube player is 560, the map 600), which push the page wider than a phone
+// viewport and make the whole document scroll sideways. Cap the width and let
+// the height follow the aspect ratio; on desktop these resolve to the original
+// dimensions, so nothing changes there.
+main > iframe {
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+
+.googleMap iframe {
+  max-width: 100%;
+  aspect-ratio: 4 / 3;
+  height: auto;
+}
+
 @media screen and (max-width: $size-mobile) {
   .alignRight {
     width: 100%;

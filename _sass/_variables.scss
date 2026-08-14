@@ -1,4 +1,5 @@
 $landgraf-sans: 'Verdana', -apple-system, sans-serif;
+$landgraf-serif: Georgia, 'Times New Roman', serif;
 //$landgraf-source: 'Source Pro', monospace;
 $landgraf-source: 'Roboto Mono', monospace;
 $landgraf-recursive: 'Recursive', monospace;
@@ -18,6 +19,13 @@ $size-xxl:1299px;
 
 $color__basecolor:teal;
 $color__emphasis:violet;
+
+// Heading typography. Swap these three to change the heading style:
+//   serif    -> $landgraf-serif,  weight 400, tracking 0
+//   mono     -> $landgraf-source, weight 500, tracking .3px
+$landgraf-heading: $landgraf-serif;
+$landgraf-heading-weight: 400;
+$landgraf-heading-tracking: 0;
 
 $color__yellow:#ddd672;
 $color__orange:#caa009;

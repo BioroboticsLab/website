@@ -7,33 +7,50 @@ p {
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
   color: $color__green;
-  font-weight: 200;
-  font-family: $landgraf-source;
-  letter-spacing: 1px;
+  font-weight: $landgraf-heading-weight;
+  font-family: $landgraf-heading;
+  letter-spacing: $landgraf-heading-tracking;
 }
 
+// Sizes descend strictly: h1 was previously smaller than h2, which made a
+// page title look subordinate to the sections beneath it.
 h1 {
-  font-size: 3.2rem;
-}
-
-h2 {
   font-size: 3.8rem;
 }
 
+h2 {
+  font-size: 2.8rem;
+}
+
 h3 {
-  font-size: 2.6rem;
+  font-size: 2.1rem;
 }
 
 h4 {
-  font-size: 2.4rem;
+  font-size: 1.9rem;
 }
 
 h5 {
-  font-size:2.2rem;
+  font-size: 1.7rem;
 }
 
 h6 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+}
+
+// Headings carry a bottom margin but no top one, so a heading that follows
+// content — a video, a list, a paragraph — sits flush against it. Only
+// headings with a preceding sibling are affected; ones that open a block
+// (person names, the research lede) keep sitting at the top of their box.
+main * + h2,
+main * + h3 {
+  margin-top: 4rem;
+}
+
+main * + h4,
+main * + h5,
+main * + h6 {
+  margin-top: 3rem;
 }
 
 strong {

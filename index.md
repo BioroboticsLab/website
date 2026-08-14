@@ -19,6 +19,11 @@ The Landgraf Lab works at the interface of biology and computer science to study
 * [Prof. Dr. Christoph Benzmüller](http://page.mi.fu-berlin.de/cbenzmueller/) - FU Berlin
 * [Prof. Dr. Ralf Romeike](https://www.mi.fu-berlin.de/inf/groups/ag-ddi/team/prof/rromeike.html) - FU Berlin
 * [Prof. Dr. James Nieh](https://biology.ucsd.edu/research/faculty/jnieh) - UC San Diego
+* [Prof. Dr. Giovanni Galizia](https://neuro.uni-konstanz.de/03team/content/galizia.html) - Neurobiologie, Uni Konstanz
+* [Prof. Dr. Rüdiger Krahe](https://www.hu-berlin.de/en/people-detail-page/prof-dr-ruediger-krahe) - Verhaltensphysiologie, HU Berlin
+* [PD Dr. Sven Laudi](https://www.kai-uniklinik-leipzig.de/index.php/de/component/contact/contact/17-sven-laudi) - Anästhesiologie und Intensivtherapie, Universitätsklinikum Leipzig
+* [Prof. Dr. Roland Eils](https://www.bihealth.org/en/research/research-group/eils-lab-bih-digital-health-center) - Digital Health Center, BIH at Charité
+* [Prof. Dr. Irina Lehmann](https://www.bihealth.org/en/research/research-group/lehmann-lab-molecular-epidemiology) - Molecular Epidemiology, BIH at Charité
 
 
 ## Affiliations

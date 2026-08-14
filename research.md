@@ -78,6 +78,24 @@ We would like to thank the following funding agencies and sponsors for their gen
         </thead>
         <tbody>
             <tr>
+                <td>2026 - 2029</td>
+                <td>ElektroFish II</td>
+                <td>Untersuchung der räumlichen Logik der Produktion elektrischer Signale eines gymnotiformen Messerfischs mit Hilfe interaktiver Roboter-Experimente</td>
+                <td>DFG</td>
+            </tr>
+            <tr>
+                <td>2026 - 2028</td>
+                <td>PIA</td>
+                <td>Interaktive und leicht verständliche Patientenaufklärung (Förderschwerpunkt „Start Interaktiv“)</td>
+                <td>BMFTR</td>
+            </tr>
+            <tr>
+                <td>2026 - 2027</td>
+                <td>L4RA</td>
+                <td>Validierung eines RAG-basierten Leitlinien-Assistenten zur Optimierung von Patient Outcome und Ressourcen-Effizienz in der Intensivmedizin</td>
+                <td>Investitionsbank Berlin (IBB)</td>
+            </tr>
+            <tr>
                 <td>2023 - 2026</td>
                 <td>Sublethal FX</td>
                 <td>Using Novel Tools to Resolve an Old Issue in Bee Ecotoxicology - Application of Digital Methods to Understand Sublethal Effects of Pesticides to Bees and Their Significance in Regulatory Risk Assessment</td>

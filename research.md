@@ -96,6 +96,12 @@ We would like to thank the following funding agencies and sponsors for their gen
                 <td>Investitionsbank Berlin (IBB)</td>
             </tr>
             <tr>
+                <td>2024 - 2026</td>
+                <td>PIA</td>
+                <td>Interaktive und leicht verständliche Patientenaufklärung (Förderlinie TRANSFER)</td>
+                <td>Freie Universität Berlin</td>
+            </tr>
+            <tr>
                 <td>2023 - 2026</td>
                 <td>Sublethal FX</td>
                 <td>Using Novel Tools to Resolve an Old Issue in Bee Ecotoxicology - Application of Digital Methods to Understand Sublethal Effects of Pesticides to Bees and Their Significance in Regulatory Risk Assessment</td>

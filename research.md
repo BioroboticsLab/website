@@ -3,7 +3,7 @@ layout: page
 title: Research
 ---
   <div>
-      <h4>Everything is connected. The nature of the world is much like a dense network of connected nodes, whether it may be molecules that interact, humans that communicate or weather systems that influence each other.</h4>
+      <h3>Everything is connected. The nature of the world is much like a dense network of connected nodes, whether it may be molecules that interact, humans that communicate or weather systems that influence each other.</h3>
 
       <p style="line-height:2.6rem">The Landgraf lab studies complex <i>social</i> systems - collectives made of individual living units that each observe their environment, learn what’s good and bad, and interact with conspecifics. These interactions (and how they change over time) often create emergent properties on the group level: from coordinated motion patterns of flocks and shoals to the democratic decision making process in humans. The whole is greater than the sum of its parts - but exactly <i>how</i>?</p>
 </div>
@@ -15,7 +15,7 @@ title: Research
     </div>
   </div>
   <div class="scroll__text"> 
-    <h3>Models of Individual Behavior</h3>
+    <h2>Models of Individual Behavior</h2>
     <p>To understand how collectives can be smart and how group patterns emerge, we often simplify the system, creating models that represent how we <i>think</i> each individual works: Does it have a memory of past events? How is an observation of the environment translated to behavior? Rather than using the human brain to come up with a model, a part of the Landgraf lab is concerned with (machine) learning models of individual behavior. How can we leverage large amounts of data to extract a model that not only is as accurate but also as generic as possible? How can we control the level of abstraction and how can we make sure we humans learn something about the actual living system and not just about our model?
     <br><br>
     An important part of our work is tracking individuals in groups and use this data to model their behavior. On the left you can see a simulation of two neural networks that interact in a virtual tank. The neural network model was trained on tracking data to imitate the tracking data of fish optimally.</p>
@@ -29,7 +29,7 @@ title: Research
     </div>
   </div>
   <div class="scroll__text">
-    <h3>Models of Group Behavior</h3>
+    <h2>Models of Group Behavior</h2>
     <p>Similarly, we can use machine learning to come up with a model that reflects the general properties of the group dynamics (rather than using the individual models to simulate a group). Looking at many hundred or thousand honeybees, for example, we have been able to study life-long social networks and learn about different interaction patterns bees produce when performing one of the many roles there are in a colony.
   <br><br>
     Now, we can invert this idea: knowing with whom you meet tells us something about your task in the collective!
@@ -44,7 +44,7 @@ title: Research
     </div>
   </div>
   <div class="scroll__text">
-    <h3>Robots that interact with the living system</h3>
+    <h2>Robots that interact with the living system</h2>
     <p>In the scientific literature, there are countless mathematical models that describe the behavior of individual members of a group. How can we be sure whether a given model is realistic or under which circumstances it may not be accurate? A large portion of our work is creating physical animal models that look and act like their animal counterparts. These biomimetic robots can observe the real environment and act upon it. We can then use these robots to test our models in the real world. Our "RoboFish" is an open source platform that can be used to study collective behavior in fish. We have used it to e.g. to find that fish anticipate the movement of their shoal mates <a href="https://iopscience.iop.org/article/10.1088/1748-3190/ac8e3e/meta">(Bierbach et al. 2022)</a> or that fish prefer socially competent (robot) leaders <a href="https://iopscience.iop.org/article/10.1088/1748-3190/acca59/meta">(Maxeiner et al. 2023)</a>. With "RoboBee" we have studied the honeybee dance to better understand which cues bees use to follow and decode a dance <a href="">(Landgraf et al. 2018)</a>. 
     <br><br>
     Robots can be used for a much wider variety of questions and applications. We have used quadrocopters to record neural activity of bees that were flown over real-world scenes, or applied a mechanism observed in honeybees to electric cars allowing them to exchange energy between electric cars. </p>
@@ -58,7 +58,7 @@ title: Research
     </div>
   </div>
   <div class="scroll__text">
-    <h3>Explainabilty and Interpretability</h3>
+    <h2>Explainabilty and Interpretability</h2>
     <p>Modern machine learning models (i.e. deep neural networks, DNNs) are powerful. They can learn virtually any mapping between input-output pairs. Whether we use DNNs to learn individual or collective behavior from data, or use DNNs in predicting cardiovascular risk, we would like some explanation as to why the model does what it does. Did the model use spurious correlations, or which features did it use?
     <br><br>
     To understand which input regions were relevant for the decision of a image classification network, we recently proposed restricting the amount of information that is allowed to flow through the network with so-called information bottlenecks. We introduce as much random noise into the activations of early network layers as possible without impairing the classification result. Those areas that received much noise are irrelevant!</p>
@@ -66,7 +66,7 @@ title: Research
 </div>
 
 
-### Funding and Sponsoring
+## Funding and Sponsoring
 We would like to thank the following funding agencies and sponsors for their generous support of our research:
 <div class="table-responsive">
     <table>

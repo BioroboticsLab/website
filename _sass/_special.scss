@@ -6,6 +6,13 @@
     background-color: white;
     //clip-path: url(#box-clip);
   }
+
+  // <main> carries 9rem of top padding site-wide to clear the curved header.
+  // Here the content sits inside its own card, so that clearance only reads
+  // as dead space above the intro. Match the 4rem side padding instead.
+  .home-main {
+    padding-top: 4rem;
+  }
 }
 
 @media screen and (max-width: $size-mobile) {

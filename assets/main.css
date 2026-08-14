@@ -132,6 +132,14 @@ a img {
   line-height: 5.2rem;
 }
 
+.logoMark {
+  float: left;
+  position: relative;
+  width: 100px;
+  top: -40px;
+  left: -10px;
+}
+
 .logoBlot {
   position: absolute;
   display: block;
@@ -144,7 +152,15 @@ a img {
   .logoText {
     top: 1rem;
     left: 1rem;
-    padding: 2rem;
+    padding: 1.5rem;
+    font-size: 3.2rem;
+    letter-spacing: 3px;
+    line-height: 3.8rem;
+  }
+  .logoMark {
+    width: 62px;
+    top: -22px;
+    left: -6px;
   }
   .logoBlot {
     top: 2rem;
@@ -201,7 +217,7 @@ footer {
 
 .person {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 220px 1fr;
   margin-bottom: 2rem;
 }
 
@@ -214,18 +230,6 @@ footer {
   display: block;
 }
 
-.person-headshot::after {
-  content: "";
-  position: absolute;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(255, 255, 255, 0.6);
-  clip-path: polygon(0 98%, 100% 85%, 100% 100%, 0 100%);
-}
-
 @media screen and (max-width: 529px) {
   .person {
     display: block;
@@ -234,7 +238,8 @@ footer {
     padding: 0;
   }
   .person-headshot {
-    width: 100%;
+    width: 220px;
+    max-width: 100%;
   }
 }
 .affiliations {
@@ -384,6 +389,24 @@ a:focus {
   content: " ▲";
 }
 
+@media screen and (max-width: 699px) {
+  .main-navigation {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1.5rem 1.5rem 10rem;
+    text-align: right;
+  }
+  .main-navigation button {
+    width: auto;
+    margin-left: auto;
+  }
+  .main-navigation.toggled ul {
+    margin-top: 10rem;
+  }
+  .page-header:has(.main-navigation.toggled) {
+    clip-path: none;
+  }
+}
 @media screen and (min-width: 699px) {
   .menu-toggle {
     display: none;
@@ -405,33 +428,44 @@ p {
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
   color: #1a3122;
-  font-weight: 200;
-  font-family: "Roboto Mono", monospace;
-  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 0;
 }
 
 h1 {
-  font-size: 3.2rem;
-}
-
-h2 {
   font-size: 3.8rem;
 }
 
+h2 {
+  font-size: 2.8rem;
+}
+
 h3 {
-  font-size: 2.6rem;
+  font-size: 2.1rem;
 }
 
 h4 {
-  font-size: 2.4rem;
+  font-size: 1.9rem;
 }
 
 h5 {
-  font-size: 2.2rem;
+  font-size: 1.7rem;
 }
 
 h6 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+}
+
+main * + h2,
+main * + h3 {
+  margin-top: 4rem;
+}
+
+main * + h4,
+main * + h5,
+main * + h6 {
+  margin-top: 3rem;
 }
 
 strong {
@@ -585,6 +619,18 @@ img {
   height: 80%;
 }
 
+main > iframe {
+  max-width: 100%;
+  aspect-ratio: 16/9;
+  height: auto;
+}
+
+.googleMap iframe {
+  max-width: 100%;
+  aspect-ratio: 4/3;
+  height: auto;
+}
+
 @media screen and (max-width: 529px) {
   .alignRight {
     width: 100%;
@@ -597,7 +643,6 @@ img {
   display: block;
   width: 100%;
   margin-bottom: 1rem;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
 }
 
 .portrait_alumni {
@@ -609,7 +654,14 @@ img {
   box-sizing: border-box;
   margin-top: auto;
   margin: 0 auto;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+}
+
+.portrait {
+  border-radius: 20px;
+}
+
+.portrait_alumni {
+  border-radius: 9px;
 }
 
 .alumni {
@@ -720,6 +772,9 @@ div.person .page-content {
   float: right;
   max-width: 70rem;
   background-color: white;
+}
+.home .home-main {
+  padding-top: 4rem;
 }
 
 @media screen and (max-width: 529px) {
